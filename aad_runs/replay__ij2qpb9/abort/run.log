@@ -1,0 +1,191 @@
+{
+  "frames": 171,
+  "tags": [
+    {
+      "track_id": 98,
+      "family": "A",
+      "start_frame": 67,
+      "end_frame": 73,
+      "physical_behaviour": "lane_change",
+      "attention_context": "nearby_receiving_lane_vehicle",
+      "interaction_evidence": [
+        {
+          "track_id": 65,
+          "consecutive_frames": 7,
+          "minimum_longitudinal_proxy_m": 0.20602437870077495
+        }
+      ],
+      "evasive_response": "unassessed",
+      "observed_outcome": "unknown",
+      "tag": "candidate_AAD_review",
+      "abnormality_assessment": "unassessed",
+      "start_s": 6.7,
+      "end_s": 7.3
+    },
+    {
+      "track_id": 98,
+      "family": "A",
+      "start_frame": 131,
+      "end_frame": 140,
+      "physical_behaviour": "lane_change",
+      "attention_context": "nearby_receiving_lane_vehicle",
+      "interaction_evidence": [
+        {
+          "track_id": 66,
+          "consecutive_frames": 10,
+          "minimum_longitudinal_proxy_m": 1.1546467003725667
+        },
+        {
+          "track_id": 67,
+          "consecutive_frames": 10,
+          "minimum_longitudinal_proxy_m": 0.10997107050944521
+        },
+        {
+          "track_id": 3,
+          "consecutive_frames": 10,
+          "minimum_longitudinal_proxy_m": 0.10514194189097736
+        },
+        {
+          "track_id": 4,
+          "consecutive_frames": 10,
+          "minimum_longitudinal_proxy_m": 3.0181464020306237
+        },
+        {
+          "track_id": 44,
+          "consecutive_frames": 4,
+          "minimum_longitudinal_proxy_m": 8.06587786936393
+        }
+      ],
+      "evasive_response": "unassessed",
+      "observed_outcome": "unknown",
+      "tag": "candidate_AAD_review",
+      "abnormality_assessment": "unassessed",
+      "start_s": 13.1,
+      "end_s": 14.0
+    }
+  ]
+}
+[
+  {
+    "family": "C",
+    "track_id": 1,
+    "start_frame": 10,
+    "end_frame": 22,
+    "physical_behaviour": "deceleration",
+    "attention_context": "unassessed",
+    "interaction_evidence": {
+      "initial_speed_proxy_m_s": 14.013561191769242,
+      "final_speed_proxy_m_s": 8.046104896489226
+    },
+    "tag": "deceleration",
+    "evasive_response": "unassessed",
+    "observed_outcome": "unknown",
+    "abnormality_assessment": "unassessed",
+    "start_s": 1.0,
+    "end_s": 2.2
+  },
+  {
+    "family": "C",
+    "track_id": 1,
+    "start_frame": 25,
+    "end_frame": 37,
+    "physical_behaviour": "deceleration",
+    "attention_context": "unassessed",
+    "interaction_evidence": {
+      "initial_speed_proxy_m_s": 12.472089025395974,
+      "final_speed_proxy_m_s": 2.452578513641015
+    },
+    "tag": "deceleration",
+    "evasive_response": "unassessed",
+    "observed_outcome": "unknown",
+    "abnormality_assessment": "unassessed",
+    "start_s": 2.5,
+    "end_s": 3.7
+  },
+  {
+    "family": "C",
+    "track_id": 1,
+    "start_frame": 38,
+    "end_frame": 50,
+    "physical_behaviour": "deceleration",
+    "attention_context": "unassessed",
+    "interaction_evidence": {
+      "initial_speed_proxy_m_s": 11.251976848618881,
+      "final_speed_proxy_m_s": 1.4598108513816044
+    },
+    "tag": "deceleration",
+    "evasive_response": "unassessed",
+    "observed_outcome": "unknown",
+    "abnormality_assessment": "unassessed",
+    "start_s": 3.8,
+    "end_s": 5.0
+  },
+  {
+    "family": "B",
+    "track_id": 98,
+    "start_frame": 63,
+    "end_frame": 140,
+    "physical_behaviour": "return_behind_after_excursion",
+    "attention_context": "unassessed",
+    "interaction_evidence": {
+      "counterpart_track": 5,
+      "initial_longitudinal_order_m": 15.991274797631192,
+      "final_longitudinal_order_m": 16.074250014513808,
+      "minimum_absolute_longitudinal_proxy_m": 8.256770372914758
+    },
+    "tag": "return_behind_after_excursion",
+    "evasive_response": "unassessed",
+    "observed_outcome": "unknown",
+    "abnormality_assessment": "unassessed",
+    "start_s": 6.3,
+    "end_s": 14.0
+  },
+  {
+    "track_id": 98,
+    "family": "A",
+    "start_frame": 67,
+    "end_frame": 73,
+    "physical_behaviour": "lane_change",
+    "attention_context": "insufficient_context_for_flag",
+    "interaction_evidence": [],
+    "evasive_response": "unassessed",
+    "observed_outcome": "unknown",
+    "tag": "lane_change_only",
+    "abnormality_assessment": "unassessed",
+    "start_s": 6.7,
+    "end_s": 7.3
+  },
+  {
+    "family": "C",
+    "track_id": 98,
+    "start_frame": 75,
+    "end_frame": 87,
+    "physical_behaviour": "deceleration",
+    "attention_context": "unassessed",
+    "interaction_evidence": {
+      "initial_speed_proxy_m_s": 7.776626684198575,
+      "final_speed_proxy_m_s": 1.2434335337200508
+    },
+    "tag": "deceleration",
+    "evasive_response": "unassessed",
+    "observed_outcome": "unknown",
+    "abnormality_assessment": "unassessed",
+    "start_s": 7.5,
+    "end_s": 8.7
+  },
+  {
+    "track_id": 98,
+    "family": "A",
+    "start_frame": 131,
+    "end_frame": 140,
+    "physical_behaviour": "lane_change",
+    "attention_context": "insufficient_context_for_flag",
+    "interaction_evidence": [],
+    "evasive_response": "unassessed",
+    "observed_outcome": "unknown",
+    "tag": "lane_change_only",
+    "abnormality_assessment": "unassessed",
+    "start_s": 13.1,
+    "end_s": 14.0
+  }
+]

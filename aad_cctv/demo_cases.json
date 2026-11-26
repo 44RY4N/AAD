@@ -1,0 +1,74 @@
+{
+  "lane_change_clear": {
+    "video": "samples/lane_change_clear/input.mp4",
+    "calibration": "samples/lane_change_clear/calibration.json",
+    "expected": "samples/lane_change_clear/expected_report.json",
+    "layout": "straight",
+    "mode": "lane_change",
+    "braking_window": 12
+  },
+  "lane_change_concurrent": {
+    "video": "samples/lane_change_concurrent/input.mp4",
+    "calibration": "samples/lane_change_concurrent/calibration.json",
+    "expected": "samples/lane_change_concurrent/expected_report.json",
+    "layout": "straight",
+    "mode": "lane_change",
+    "braking_window": 12
+  },
+  "pass": {
+    "video": "samples/pass/input.mp4",
+    "calibration": "samples/pass/calibration.json",
+    "expected": "samples/pass/expected_report.json",
+    "layout": "straight",
+    "mode": "families",
+    "braking_window": 12
+  },
+  "abort": {
+    "video": "samples/abort/input.mp4",
+    "calibration": "samples/abort/calibration.json",
+    "expected": "samples/abort/expected_report.json",
+    "layout": "straight",
+    "mode": "families",
+    "braking_window": 12
+  },
+  "braking_ordinary": {
+    "video": "samples/braking_ordinary/input.mp4",
+    "calibration": "samples/braking_ordinary/calibration.json",
+    "expected": "samples/braking_ordinary/expected_report.json",
+    "layout": "straight",
+    "mode": "families",
+    "braking_window": 30
+  },
+  "braking_stronger": {
+    "video": "samples/braking_stronger/input.mp4",
+    "calibration": "samples/braking_stronger/calibration.json",
+    "expected": "samples/braking_stronger/expected_report.json",
+    "layout": "straight",
+    "mode": "families",
+    "braking_window": 30
+  },
+  "crossing_clear": {
+    "video": "samples/crossing_clear/input.mp4",
+    "calibration": "samples/crossing_clear/calibration.json",
+    "expected": "samples/crossing_clear/expected_report.json",
+    "layout": "intersection",
+    "mode": "families",
+    "braking_window": 12
+  },
+  "crossing_interaction": {
+    "video": "samples/crossing_interaction/input.mp4",
+    "calibration": "samples/crossing_interaction/calibration.json",
+    "expected": "samples/crossing_interaction/expected_report.json",
+    "layout": "intersection",
+    "mode": "families",
+    "braking_window": 12
+  },
+  "braking_unseen": {
+    "video": "samples/braking_unseen/input.mp4",
+    "calibration": "samples/braking_unseen/calibration.json",
+    "expected": "samples/braking_unseen/expected_report.json",
+    "layout": "straight",
+    "mode": "families",
+    "braking_window": 30
+  }
+}

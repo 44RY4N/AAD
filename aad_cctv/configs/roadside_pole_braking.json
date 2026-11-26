@@ -1,0 +1,11 @@
+[
+  {
+    "id": "roadside",
+    "position_world_m": [80, -2.5, 8],
+    "look_at_world_m": [112, 4, 0.6],
+    "width": 1280,
+    "height": 720,
+    "horizontal_fov_deg": 80,
+    "fps": 10
+  }
+]

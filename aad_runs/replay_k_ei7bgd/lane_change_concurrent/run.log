@@ -1,0 +1,49 @@
+{
+  "frames": 121,
+  "tags": [
+    {
+      "track_id": 99,
+      "family": "A",
+      "start_frame": 67,
+      "end_frame": 73,
+      "physical_behaviour": "lane_change",
+      "attention_context": "nearby_receiving_lane_vehicle",
+      "interaction_evidence": [
+        {
+          "track_id": 100,
+          "consecutive_frames": 5,
+          "minimum_longitudinal_proxy_m": 8.511957317329546
+        }
+      ],
+      "evasive_response": "unassessed",
+      "observed_outcome": "unknown",
+      "tag": "candidate_AAD_review",
+      "abnormality_assessment": "unassessed",
+      "start_s": 6.7,
+      "end_s": 7.3
+    }
+  ]
+}
+[
+  {
+    "track_id": 99,
+    "family": "A",
+    "start_frame": 67,
+    "end_frame": 73,
+    "physical_behaviour": "lane_change",
+    "attention_context": "nearby_receiving_lane_vehicle",
+    "interaction_evidence": [
+      {
+        "track_id": 100,
+        "consecutive_frames": 5,
+        "minimum_longitudinal_proxy_m": 8.511957317329546
+      }
+    ],
+    "evasive_response": "unassessed",
+    "observed_outcome": "unknown",
+    "tag": "candidate_AAD_review",
+    "abnormality_assessment": "unassessed",
+    "start_s": 6.7,
+    "end_s": 7.3
+  }
+]

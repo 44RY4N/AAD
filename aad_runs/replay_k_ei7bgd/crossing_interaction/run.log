@@ -1,0 +1,40 @@
+{
+  "frames": 96,
+  "tags": [
+    {
+      "track_id": 1,
+      "family": "A",
+      "start_frame": 65,
+      "end_frame": 68,
+      "physical_behaviour": "lane_change",
+      "attention_context": "insufficient_context_for_flag",
+      "interaction_evidence": [],
+      "evasive_response": "unassessed",
+      "observed_outcome": "unknown",
+      "tag": "lane_change_only",
+      "abnormality_assessment": "unassessed",
+      "start_s": 6.5,
+      "end_s": 6.8
+    }
+  ]
+}
+[
+  {
+    "family": "D",
+    "track_id": 2,
+    "start_frame": 61,
+    "end_frame": 73,
+    "physical_behaviour": "crossing_interaction",
+    "attention_context": "review_context_observed",
+    "interaction_evidence": {
+      "counterpart_track": 1,
+      "sampled_zone_gap_proxy_s": 0.5
+    },
+    "tag": "candidate_AAD_review",
+    "evasive_response": "unassessed",
+    "observed_outcome": "unknown",
+    "abnormality_assessment": "unassessed",
+    "start_s": 6.1,
+    "end_s": 7.3
+  }
+]

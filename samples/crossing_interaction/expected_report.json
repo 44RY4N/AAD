@@ -1,0 +1,58 @@
+{
+  "frames": 96,
+  "fps": 10.0,
+  "video_sha256": "6d35e45c0d4a0554100e7df5034496273df148897200d8d630e22dfa46f4c98b",
+  "calibration_sha256": "8c18e7f0d945682fd2ee302e01207678a813c3f971e52884c4c4bb2d63122849",
+  "code_sha256": "353813550e52f7a3e4a6d4e1d109a496e33c476f0c6cb6b7fd0c5e3d621cea55",
+  "rules": {
+    "road_divider_y_m": 5.25,
+    "lane_deadband_m": 0.4,
+    "stable_frames": 3,
+    "nearby_longitudinal_m": 9.0,
+    "context_frames": 3,
+    "proxy_surface_z_m": 0.65,
+    "red_min": 58,
+    "red_channel_margin": 23,
+    "min_component_px": 36
+  },
+  "tags": [
+    {
+      "family": "D",
+      "track_id": 2,
+      "start_frame": 61,
+      "end_frame": 73,
+      "physical_behaviour": "crossing_interaction",
+      "attention_context": "review_context_observed",
+      "interaction_evidence": {
+        "counterpart_track": 1,
+        "sampled_zone_gap_proxy_s": 0.5
+      },
+      "tag": "candidate_AAD_review",
+      "evasive_response": "unassessed",
+      "observed_outcome": "unknown",
+      "abnormality_assessment": "unassessed",
+      "start_s": 6.1,
+      "end_s": 7.3
+    }
+  ],
+  "scope": "Simulated red ordinary vehicles, static road and fixed calibrated CCTV. Review tag is provisional.",
+  "static_layout": "intersection",
+  "method": {
+    "road_strip_y_m": [
+      1.75,
+      8.75
+    ],
+    "intersection_zone_world_m": [
+      95.25,
+      1.75,
+      98.75,
+      5.25
+    ],
+    "deceleration_drop_m_s": 3,
+    "braking_lead_window_m": 30,
+    "crossing_review_gap_s": 1,
+    "pass_order_margin_m": 3
+  },
+  "tagger_sha256": "73923d3fd7070fbfca921a2a3434df2af78967c3e6f40f01a6202ac085e2b482",
+  "derived_from_code_sha256": "353813550e52f7a3e4a6d4e1d109a496e33c476f0c6cb6b7fd0c5e3d621cea55"
+}

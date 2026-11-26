@@ -1,0 +1,2955 @@
+[
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        840,
+        520,
+        1094,
+        714
+      ],
+      "roof_pixel": [
+        976.1064261686579,
+        616.5832850017399
+      ],
+      "track_id": 1,
+      "first_step": 49,
+      "last_step": 49,
+      "time_s": 4.9,
+      "centre": [
+        967.0,
+        617.0
+      ],
+      "image_velocity_px_s": null,
+      "state": "new",
+      "xy_m": [
+        96.87107460534446,
+        -8.226593615263067
+      ]
+    }
+  ],
+  [
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        811,
+        500,
+        1044,
+        672
+      ],
+      "roof_pixel": [
+        934.156123637859,
+        584.669111095881
+      ],
+      "track_id": 1,
+      "first_step": 49,
+      "last_step": 50,
+      "time_s": 5.0,
+      "centre": [
+        927.5,
+        586.0
+      ],
+      "image_velocity_px_s": [
+        -395.0000000000014,
+        -310.0000000000011
+      ],
+      "state": "matched",
+      "xy_m": [
+        96.87449660608178,
+        -7.3831946023556325
+      ]
+    }
+  ],
+  [
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        784,
+        480,
+        998,
+        634
+      ],
+      "roof_pixel": [
+        896.6729474021809,
+        556.3762026940346
+      ],
+      "track_id": 1,
+      "first_step": 49,
+      "last_step": 51,
+      "time_s": 5.1,
+      "centre": [
+        891.0,
+        557.0
+      ],
+      "image_velocity_px_s": [
+        -365.0000000000013,
+        -290.000000000001
+      ],
+      "state": "matched",
+      "xy_m": [
+        96.87270067332274,
+        -6.54333286354765
+      ]
+    }
+  ],
+  [
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        760,
+        462,
+        956,
+        602
+      ],
+      "roof_pixel": [
+        863.2085347712905,
+        531.0222201561919
+      ],
+      "track_id": 1,
+      "first_step": 49,
+      "last_step": 52,
+      "time_s": 5.2,
+      "centre": [
+        858.0,
+        532.0
+      ],
+      "image_velocity_px_s": [
+        -329.99999999999824,
+        -249.99999999999866
+      ],
+      "state": "matched",
+      "xy_m": [
+        96.87324689689929,
+        -5.708526887333576
+      ]
+    }
+  ],
+  [
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        738,
+        444,
+        918,
+        572
+      ],
+      "roof_pixel": [
+        832.7303454914965,
+        508.07829714407956
+      ],
+      "track_id": 1,
+      "first_step": 49,
+      "last_step": 53,
+      "time_s": 5.3,
+      "centre": [
+        828.0,
+        508.0
+      ],
+      "image_velocity_px_s": [
+        -300.0000000000011,
+        -240.00000000000085
+      ],
+      "state": "matched",
+      "xy_m": [
+        96.86997940251278,
+        -4.8710756913965865
+      ]
+    }
+  ],
+  [
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        716,
+        428,
+        886,
+        544
+      ],
+      "roof_pixel": [
+        805.5681091713794,
+        487.2023604622572
+      ],
+      "track_id": 1,
+      "first_step": 49,
+      "last_step": 54,
+      "time_s": 5.4,
+      "centre": [
+        801.0,
+        486.0
+      ],
+      "image_velocity_px_s": [
+        -269.9999999999986,
+        -219.99999999999883
+      ],
+      "state": "matched",
+      "xy_m": [
+        96.87837818978845,
+        -4.040710817992634
+      ]
+    }
+  ],
+  [
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        698,
+        416,
+        856,
+        522
+      ],
+      "roof_pixel": [
+        780.5860155382908,
+        468.22516648168704
+      ],
+      "track_id": 1,
+      "first_step": 49,
+      "last_step": 55,
+      "time_s": 5.5,
+      "centre": [
+        777.0,
+        469.0
+      ],
+      "image_velocity_px_s": [
+        -240.00000000000085,
+        -170.0000000000006
+      ],
+      "state": "matched",
+      "xy_m": [
+        96.88051323740707,
+        -3.209984086132623
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        32,
+        468,
+        288,
+        586
+      ],
+      "roof_pixel": [
+        151.07372712290746,
+        526.034261427704
+      ],
+      "track_id": 2,
+      "first_step": 55,
+      "last_step": 55,
+      "time_s": 5.5,
+      "centre": [
+        160.0,
+        527.0
+      ],
+      "image_velocity_px_s": null,
+      "state": "new",
+      "xy_m": [
+        83.57888174195709,
+        3.329137305816248
+      ]
+    }
+  ],
+  [
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        680,
+        402,
+        828,
+        500
+      ],
+      "roof_pixel": [
+        757.3431066749844,
+        450.6589207735496
+      ],
+      "track_id": 1,
+      "first_step": 49,
+      "last_step": 56,
+      "time_s": 5.6,
+      "centre": [
+        754.0,
+        451.0
+      ],
+      "image_velocity_px_s": [
+        -230.00000000000082,
+        -180.00000000000065
+      ],
+      "state": "matched",
+      "xy_m": [
+        96.88002368562191,
+        -2.3693187429226237
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        86,
+        456,
+        324,
+        568
+      ],
+      "roof_pixel": [
+        196.3396244491282,
+        510.7043494922399
+      ],
+      "track_id": 2,
+      "first_step": 55,
+      "last_step": 56,
+      "time_s": 5.6,
+      "centre": [
+        205.0,
+        512.0
+      ],
+      "image_velocity_px_s": [
+        450.0000000000016,
+        -150.00000000000054
+      ],
+      "state": "matched",
+      "xy_m": [
+        84.41311139704179,
+        3.3336965346359957
+      ]
+    }
+  ],
+  [
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        664,
+        388,
+        804,
+        480
+      ],
+      "roof_pixel": [
+        736.536598209584,
+        434.5367737405652
+      ],
+      "track_id": 1,
+      "first_step": 49,
+      "last_step": 57,
+      "time_s": 5.7,
+      "centre": [
+        734.0,
+        434.0
+      ],
+      "image_velocity_px_s": [
+        -199.99999999999895,
+        -169.9999999999991
+      ],
+      "state": "matched",
+      "xy_m": [
+        96.89178918291339,
+        -1.5385360458796988
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        138,
+        444,
+        360,
+        550
+      ],
+      "roof_pixel": [
+        238.94091004845166,
+        496.2476300821572
+      ],
+      "track_id": 2,
+      "first_step": 55,
+      "last_step": 57,
+      "time_s": 5.7,
+      "centre": [
+        249.0,
+        497.0
+      ],
+      "image_velocity_px_s": [
+        439.99999999999767,
+        -149.9999999999992
+      ],
+      "state": "matched",
+      "xy_m": [
+        85.250469692137,
+        3.3394381168290845
+      ]
+    }
+  ],
+  [
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        648,
+        376,
+        780,
+        462
+      ],
+      "roof_pixel": [
+        717.1827851093166,
+        419.97360646050817
+      ],
+      "track_id": 1,
+      "first_step": 49,
+      "last_step": 58,
+      "time_s": 5.8,
+      "centre": [
+        714.0,
+        419.0
+      ],
+      "image_velocity_px_s": [
+        -200.0000000000007,
+        -150.00000000000054
+      ],
+      "state": "matched",
+      "xy_m": [
+        96.88974622376197,
+        -0.7170027960362919
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        184,
+        434,
+        392,
+        534
+      ],
+      "roof_pixel": [
+        278.7143022181146,
+        482.83190850277265
+      ],
+      "track_id": 2,
+      "first_step": 55,
+      "last_step": 58,
+      "time_s": 5.8,
+      "centre": [
+        288.0,
+        484.0
+      ],
+      "image_velocity_px_s": [
+        390.00000000000136,
+        -130.00000000000045
+      ],
+      "state": "matched",
+      "xy_m": [
+        86.0824079503203,
+        3.341797167040445
+      ]
+    }
+  ],
+  [
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        634,
+        366,
+        758,
+        446
+      ],
+      "roof_pixel": [
+        699.0404840484049,
+        406.2772277227723
+      ],
+      "track_id": 1,
+      "first_step": 49,
+      "last_step": 59,
+      "time_s": 5.9,
+      "centre": [
+        696.0,
+        406.0
+      ],
+      "image_velocity_px_s": [
+        -179.99999999999903,
+        -129.99999999999932
+      ],
+      "state": "matched",
+      "xy_m": [
+        96.8891719571696,
+        0.11572561381999158
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        228,
+        424,
+        424,
+        518
+      ],
+      "roof_pixel": [
+        316.4590886203424,
+        469.91641490433034
+      ],
+      "track_id": 2,
+      "first_step": 55,
+      "last_step": 59,
+      "time_s": 5.9,
+      "centre": [
+        326.0,
+        471.0
+      ],
+      "image_velocity_px_s": [
+        379.99999999999795,
+        -129.99999999999932
+      ],
+      "state": "matched",
+      "xy_m": [
+        86.92176331210217,
+        3.351977299999467
+      ]
+    }
+  ],
+  [
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        622,
+        356,
+        738,
+        430
+      ],
+      "roof_pixel": [
+        682.5123546511628,
+        393.5276162790698
+      ],
+      "track_id": 1,
+      "first_step": 49,
+      "last_step": 60,
+      "time_s": 6.0,
+      "centre": [
+        680.0,
+        393.0
+      ],
+      "image_velocity_px_s": [
+        -160.00000000000057,
+        -130.00000000000045
+      ],
+      "state": "matched",
+      "xy_m": [
+        96.89798972777368,
+        0.9441090981960745
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        268,
+        416,
+        453,
+        504
+      ],
+      "roof_pixel": [
+        351.729584822656,
+        458.0864723673357
+      ],
+      "track_id": 2,
+      "first_step": 55,
+      "last_step": 60,
+      "time_s": 6.0,
+      "centre": [
+        360.5,
+        460.0
+      ],
+      "image_velocity_px_s": [
+        345.00000000000125,
+        -110.0000000000004
+      ],
+      "state": "matched",
+      "xy_m": [
+        87.7524007727591,
+        3.35163912051199
+      ]
+    }
+  ],
+  [
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        608,
+        346,
+        720,
+        418
+      ],
+      "roof_pixel": [
+        666.663834306957,
+        381.58842272968667
+      ],
+      "track_id": 1,
+      "first_step": 49,
+      "last_step": 61,
+      "time_s": 6.1,
+      "centre": [
+        664.0,
+        382.0
+      ],
+      "image_velocity_px_s": [
+        -160.00000000000057,
+        -110.0000000000004
+      ],
+      "state": "matched",
+      "xy_m": [
+        96.89683450901367,
+        1.7840827558686367
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        304,
+        406,
+        482,
+        490
+      ],
+      "roof_pixel": [
+        385.05069746512675,
+        446.77606119694013
+      ],
+      "track_id": 2,
+      "first_step": 55,
+      "last_step": 61,
+      "time_s": 6.1,
+      "centre": [
+        393.0,
+        448.0
+      ],
+      "image_velocity_px_s": [
+        325.00000000000114,
+        -120.00000000000043
+      ],
+      "state": "matched",
+      "xy_m": [
+        88.58369644848838,
+        3.3573289319084694
+      ]
+    }
+  ],
+  [
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        596,
+        338,
+        702,
+        402
+      ],
+      "roof_pixel": [
+        651.9885327844752,
+        370.6492208174067
+      ],
+      "track_id": 1,
+      "first_step": 49,
+      "last_step": 62,
+      "time_s": 6.2,
+      "centre": [
+        649.0,
+        370.0
+      ],
+      "image_velocity_px_s": [
+        -149.9999999999992,
+        -119.99999999999936
+      ],
+      "state": "matched",
+      "xy_m": [
+        96.89139198619593,
+        2.6112955318255935
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        340,
+        398,
+        510,
+        478
+      ],
+      "roof_pixel": [
+        416.58193380075005,
+        436.23332789825537
+      ],
+      "track_id": 2,
+      "first_step": 55,
+      "last_step": 62,
+      "time_s": 6.2,
+      "centre": [
+        425.0,
+        438.0
+      ],
+      "image_velocity_px_s": [
+        319.9999999999983,
+        -99.99999999999947
+      ],
+      "state": "matched",
+      "xy_m": [
+        89.41323370854224,
+        3.355631976786883
+      ]
+    }
+  ],
+  [
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        586,
+        328,
+        688,
+        390
+      ],
+      "roof_pixel": [
+        638.6281150159745,
+        360.2300319488818
+      ],
+      "track_id": 1,
+      "first_step": 49,
+      "last_step": 63,
+      "time_s": 6.3,
+      "centre": [
+        637.0,
+        359.0
+      ],
+      "image_velocity_px_s": [
+        -120.00000000000043,
+        -110.0000000000004
+      ],
+      "state": "matched",
+      "xy_m": [
+        96.90367735455317,
+        3.4413497350877638
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        372,
+        388,
+        534,
+        466
+      ],
+      "roof_pixel": [
+        446.47697654213727,
+        426.03874891398783
+      ],
+      "track_id": 2,
+      "first_step": 55,
+      "last_step": 63,
+      "time_s": 6.3,
+      "centre": [
+        453.0,
+        427.0
+      ],
+      "image_velocity_px_s": [
+        280.000000000001,
+        -110.0000000000004
+      ],
+      "state": "matched",
+      "xy_m": [
+        90.24529828273745,
+        3.3633556411487167
+      ]
+    }
+  ],
+  [
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        576,
+        320,
+        672,
+        380
+      ],
+      "roof_pixel": [
+        625.9313138429025,
+        350.52095808383234
+      ],
+      "track_id": 1,
+      "first_step": 49,
+      "last_step": 64,
+      "time_s": 6.4,
+      "centre": [
+        624.0,
+        350.0
+      ],
+      "image_velocity_px_s": [
+        -129.99999999999932,
+        -89.99999999999952
+      ],
+      "state": "matched",
+      "xy_m": [
+        96.90852846885471,
+        4.271351941364138
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        404,
+        380,
+        559,
+        456
+      ],
+      "roof_pixel": [
+        474.50253998118535,
+        416.4590780809031
+      ],
+      "track_id": 2,
+      "first_step": 55,
+      "last_step": 64,
+      "time_s": 6.4,
+      "centre": [
+        481.5,
+        418.0
+      ],
+      "image_velocity_px_s": [
+        284.99999999999847,
+        -89.99999999999952
+      ],
+      "state": "matched",
+      "xy_m": [
+        91.06761453962535,
+        3.3720848994694332
+      ]
+    }
+  ],
+  [
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        566,
+        314,
+        658,
+        368
+      ],
+      "roof_pixel": [
+        613.6868571428571,
+        341.20647619047617
+      ],
+      "track_id": 1,
+      "first_step": 49,
+      "last_step": 65,
+      "time_s": 6.5,
+      "centre": [
+        612.0,
+        341.0
+      ],
+      "image_velocity_px_s": [
+        -120.00000000000043,
+        -90.00000000000033
+      ],
+      "state": "matched",
+      "xy_m": [
+        96.91152694379682,
+        5.120744307464589
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        432,
+        374,
+        582,
+        444
+      ],
+      "roof_pixel": [
+        501.16680227827504,
+        407.4886086248983
+      ],
+      "track_id": 2,
+      "first_step": 55,
+      "last_step": 65,
+      "time_s": 6.5,
+      "centre": [
+        507.0,
+        409.0
+      ],
+      "image_velocity_px_s": [
+        255.0000000000009,
+        -90.00000000000033
+      ],
+      "state": "matched",
+      "xy_m": [
+        91.8880215574216,
+        3.3736462776992955
+      ]
+    }
+  ],
+  [
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        556,
+        306,
+        646,
+        358
+      ],
+      "roof_pixel": [
+        602.1957340025094,
+        332.5780008364701
+      ],
+      "track_id": 1,
+      "first_step": 49,
+      "last_step": 66,
+      "time_s": 6.6,
+      "centre": [
+        601.0,
+        332.0
+      ],
+      "image_velocity_px_s": [
+        -110.0000000000004,
+        -90.00000000000033
+      ],
+      "state": "matched",
+      "xy_m": [
+        96.90977522469518,
+        5.960479621793668
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        460,
+        366,
+        605,
+        434
+      ],
+      "roof_pixel": [
+        526.3684210526316,
+        398.89863547758284
+      ],
+      "track_id": 2,
+      "first_step": 55,
+      "last_step": 66,
+      "time_s": 6.6,
+      "centre": [
+        532.5,
+        400.0
+      ],
+      "image_velocity_px_s": [
+        255.0000000000009,
+        -90.00000000000033
+      ],
+      "state": "matched",
+      "xy_m": [
+        92.70452429971449,
+        3.380895555689067
+      ]
+    }
+  ],
+  [
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        548,
+        300,
+        632,
+        350
+      ],
+      "roof_pixel": [
+        591.7310155535224,
+        324.756175663312
+      ],
+      "track_id": 1,
+      "first_step": 49,
+      "last_step": 67,
+      "time_s": 6.7,
+      "centre": [
+        590.0,
+        325.0
+      ],
+      "image_velocity_px_s": [
+        -109.99999999999942,
+        -69.99999999999963
+      ],
+      "state": "matched",
+      "xy_m": [
+        96.90653264033642,
+        6.768141146646595
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        488,
+        360,
+        626,
+        424
+      ],
+      "roof_pixel": [
+        550.5061328396205,
+        390.79657486692895
+      ],
+      "track_id": 2,
+      "first_step": 55,
+      "last_step": 67,
+      "time_s": 6.7,
+      "centre": [
+        557.0,
+        392.0
+      ],
+      "image_velocity_px_s": [
+        244.9999999999987,
+        -79.99999999999957
+      ],
+      "state": "matched",
+      "xy_m": [
+        93.52191040273439,
+        3.3816236105492212
+      ]
+    }
+  ],
+  [
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        540,
+        294,
+        620,
+        342
+      ],
+      "roof_pixel": [
+        581.3474155069582,
+        317.20626242544733
+      ],
+      "track_id": 1,
+      "first_step": 49,
+      "last_step": 68,
+      "time_s": 6.8,
+      "centre": [
+        580.0,
+        318.0
+      ],
+      "image_velocity_px_s": [
+        -100.00000000000036,
+        -70.00000000000026
+      ],
+      "state": "matched",
+      "xy_m": [
+        96.89375212999585,
+        7.598699325600965
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        512,
+        352,
+        647,
+        416
+      ],
+      "roof_pixel": [
+        573.5327726935444,
+        382.92233489982686
+      ],
+      "track_id": 2,
+      "first_step": 55,
+      "last_step": 68,
+      "time_s": 6.8,
+      "centre": [
+        579.5,
+        384.0
+      ],
+      "image_velocity_px_s": [
+        225.0000000000008,
+        -80.00000000000028
+      ],
+      "state": "matched",
+      "xy_m": [
+        94.34266909107511,
+        3.390122840182338
+      ]
+    }
+  ],
+  [
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        532,
+        288,
+        610,
+        332
+      ],
+      "roof_pixel": [
+        572.0053333333333,
+        309.7189333333333
+      ],
+      "track_id": 1,
+      "first_step": 49,
+      "last_step": 69,
+      "time_s": 6.9,
+      "centre": [
+        571.0,
+        310.0
+      ],
+      "image_velocity_px_s": [
+        -89.99999999999952,
+        -79.99999999999957
+      ],
+      "state": "matched",
+      "xy_m": [
+        96.91327975961788,
+        8.447900621703006
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        536,
+        346,
+        666,
+        406
+      ],
+      "roof_pixel": [
+        596.0573835219794,
+        375.3298236377994
+      ],
+      "track_id": 2,
+      "first_step": 55,
+      "last_step": 69,
+      "time_s": 6.9,
+      "centre": [
+        601.0,
+        376.0
+      ],
+      "image_velocity_px_s": [
+        214.99999999999886,
+        -79.99999999999957
+      ],
+      "state": "matched",
+      "xy_m": [
+        95.18042019522588,
+        3.392797192515495
+      ]
+    }
+  ],
+  [
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        524,
+        282,
+        600,
+        326
+      ],
+      "roof_pixel": [
+        563.1943628890194,
+        303.37228420434525
+      ],
+      "track_id": 1,
+      "first_step": 49,
+      "last_step": 70,
+      "time_s": 7.0,
+      "centre": [
+        562.0,
+        304.0
+      ],
+      "image_velocity_px_s": [
+        -90.00000000000033,
+        -60.00000000000021
+      ],
+      "state": "matched",
+      "xy_m": [
+        96.8992145776635,
+        9.227867639161353
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        560,
+        340,
+        686,
+        398
+      ],
+      "roof_pixel": [
+        616.7023709902371,
+        368.4783821478382
+      ],
+      "track_id": 2,
+      "first_step": 55,
+      "last_step": 70,
+      "time_s": 7.0,
+      "centre": [
+        623.0,
+        369.0
+      ],
+      "image_velocity_px_s": [
+        220.0000000000008,
+        -70.00000000000026
+      ],
+      "state": "matched",
+      "xy_m": [
+        95.97953864219656,
+        3.389338818809902
+      ]
+    }
+  ],
+  [
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        518,
+        276,
+        590,
+        318
+      ],
+      "roof_pixel": [
+        554.5099502487562,
+        296.7754975124378
+      ],
+      "track_id": 1,
+      "first_step": 49,
+      "last_step": 71,
+      "time_s": 7.1,
+      "centre": [
+        554.0,
+        297.0
+      ],
+      "image_velocity_px_s": [
+        -80.00000000000028,
+        -70.00000000000026
+      ],
+      "state": "matched",
+      "xy_m": [
+        96.90101640895347,
+        10.069447253086654
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        582,
+        334,
+        704,
+        390
+      ],
+      "roof_pixel": [
+        637.0120908286641,
+        361.71512828074316
+      ],
+      "track_id": 2,
+      "first_step": 55,
+      "last_step": 71,
+      "time_s": 7.1,
+      "centre": [
+        643.0,
+        362.0
+      ],
+      "image_velocity_px_s": [
+        200.0000000000007,
+        -70.00000000000026
+      ],
+      "state": "matched",
+      "xy_m": [
+        96.8007023659265,
+        3.387108722533151
+      ]
+    }
+  ],
+  [
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        512,
+        270,
+        580,
+        312
+      ],
+      "roof_pixel": [
+        546.5753887762002,
+        290.947261663286
+      ],
+      "track_id": 1,
+      "first_step": 49,
+      "last_step": 72,
+      "time_s": 7.2,
+      "centre": [
+        546.0,
+        291.0
+      ],
+      "image_velocity_px_s": [
+        -79.99999999999957,
+        -59.99999999999968
+      ],
+      "state": "matched",
+      "xy_m": [
+        96.89296206831445,
+        10.857628519444415
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        602,
+        330,
+        720,
+        382
+      ],
+      "roof_pixel": [
+        655.9090340731478,
+        355.37730540793996
+      ],
+      "track_id": 2,
+      "first_step": 55,
+      "last_step": 72,
+      "time_s": 7.2,
+      "centre": [
+        661.0,
+        356.0
+      ],
+      "image_velocity_px_s": [
+        179.99999999999903,
+        -59.99999999999968
+      ],
+      "state": "matched",
+      "xy_m": [
+        97.59913699948356,
+        3.387574104491268
+      ]
+    }
+  ],
+  [
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        504,
+        266,
+        572,
+        304
+      ],
+      "roof_pixel": [
+        538.6478260869566,
+        284.8369565217391
+      ],
+      "track_id": 1,
+      "first_step": 49,
+      "last_step": 73,
+      "time_s": 7.3,
+      "centre": [
+        538.0,
+        285.0
+      ],
+      "image_velocity_px_s": [
+        -80.00000000000028,
+        -60.00000000000021
+      ],
+      "state": "matched",
+      "xy_m": [
+        96.89898938606639,
+        11.715830835144516
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        624,
+        324,
+        738,
+        376
+      ],
+      "roof_pixel": [
+        675.0741226631683,
+        348.8907838635618
+      ],
+      "track_id": 2,
+      "first_step": 55,
+      "last_step": 73,
+      "time_s": 7.3,
+      "centre": [
+        681.0,
+        350.0
+      ],
+      "image_velocity_px_s": [
+        200.0000000000007,
+        -60.00000000000021
+      ],
+      "state": "matched",
+      "xy_m": [
+        98.44598375283364,
+        3.3915713893848505
+      ]
+    }
+  ],
+  [
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        498,
+        260,
+        564,
+        298
+      ],
+      "roof_pixel": [
+        531.2395672333848,
+        279.32843894899537
+      ],
+      "track_id": 1,
+      "first_step": 49,
+      "last_step": 74,
+      "time_s": 7.4,
+      "centre": [
+        531.0,
+        279.0
+      ],
+      "image_velocity_px_s": [
+        -69.99999999999963,
+        -59.99999999999968
+      ],
+      "state": "matched",
+      "xy_m": [
+        96.89449639757798,
+        12.535318074035402
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        642,
+        320,
+        754,
+        368
+      ],
+      "roof_pixel": [
+        692.5479310344828,
+        342.9796551724138
+      ],
+      "track_id": 2,
+      "first_step": 55,
+      "last_step": 74,
+      "time_s": 7.4,
+      "centre": [
+        698.0,
+        344.0
+      ],
+      "image_velocity_px_s": [
+        169.9999999999991,
+        -59.99999999999968
+      ],
+      "state": "matched",
+      "xy_m": [
+        99.25050956592226,
+        3.3951887747672203
+      ]
+    }
+  ],
+  [
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        492,
+        256,
+        554,
+        292
+      ],
+      "roof_pixel": [
+        524.1347280334728,
+        273.8451882845188
+      ],
+      "track_id": 1,
+      "first_step": 49,
+      "last_step": 75,
+      "time_s": 7.5,
+      "centre": [
+        523.0,
+        274.0
+      ],
+      "image_velocity_px_s": [
+        -80.00000000000028,
+        -50.00000000000018
+      ],
+      "state": "matched",
+      "xy_m": [
+        96.90057362017829,
+        13.383722881694556
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        660,
+        314,
+        768,
+        362
+      ],
+      "roof_pixel": [
+        709.6614545454545,
+        337.31054545454543
+      ],
+      "track_id": 2,
+      "first_step": 55,
+      "last_step": 75,
+      "time_s": 7.5,
+      "centre": [
+        714.0,
+        338.0
+      ],
+      "image_velocity_px_s": [
+        160.00000000000057,
+        -60.00000000000021
+      ],
+      "state": "matched",
+      "xy_m": [
+        100.06414387708699,
+        3.3914171096137284
+      ]
+    }
+  ],
+  [
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        486,
+        252,
+        548,
+        286
+      ],
+      "roof_pixel": [
+        517.2610966057441,
+        268.70147954743254
+      ],
+      "track_id": 1,
+      "first_step": 49,
+      "last_step": 76,
+      "time_s": 7.6,
+      "centre": [
+        517.0,
+        269.0
+      ],
+      "image_velocity_px_s": [
+        -60.00000000000021,
+        -50.00000000000018
+      ],
+      "state": "matched",
+      "xy_m": [
+        96.89801227704183,
+        14.223757398091859
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        678,
+        308,
+        784,
+        356
+      ],
+      "roof_pixel": [
+        726.4905374716125,
+        331.45950037850116
+      ],
+      "track_id": 2,
+      "first_step": 55,
+      "last_step": 76,
+      "time_s": 7.6,
+      "centre": [
+        731.0,
+        332.0
+      ],
+      "image_velocity_px_s": [
+        170.0000000000006,
+        -60.00000000000021
+      ],
+      "state": "matched",
+      "xy_m": [
+        100.91159924190507,
+        3.405048538176924
+      ]
+    }
+  ],
+  [
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        480,
+        248,
+        540,
+        280
+      ],
+      "roof_pixel": [
+        511.2165725047081,
+        264.0122410546139
+      ],
+      "track_id": 1,
+      "first_step": 49,
+      "last_step": 77,
+      "time_s": 7.7,
+      "centre": [
+        510.0,
+        264.0
+      ],
+      "image_velocity_px_s": [
+        -69.99999999999963,
+        -49.99999999999974
+      ],
+      "state": "matched",
+      "xy_m": [
+        96.90483949030221,
+        15.018393301171223
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        696,
+        304,
+        800,
+        350
+      ],
+      "roof_pixel": [
+        742.3096,
+        326.2532
+      ],
+      "track_id": 2,
+      "first_step": 55,
+      "last_step": 77,
+      "time_s": 7.7,
+      "centre": [
+        748.0,
+        327.0
+      ],
+      "image_velocity_px_s": [
+        169.9999999999991,
+        -49.99999999999974
+      ],
+      "state": "matched",
+      "xy_m": [
+        101.72310215694219,
+        3.399413860911178
+      ]
+    }
+  ],
+  [
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        476,
+        244,
+        534,
+        276
+      ],
+      "roof_pixel": [
+        504.46353646353646,
+        259.4025974025974
+      ],
+      "track_id": 1,
+      "first_step": 49,
+      "last_step": 78,
+      "time_s": 7.8,
+      "centre": [
+        505.0,
+        260.0
+      ],
+      "image_velocity_px_s": [
+        -50.00000000000018,
+        -40.00000000000014
+      ],
+      "state": "matched",
+      "xy_m": [
+        96.87720742907456,
+        15.857136906417978
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        712,
+        300,
+        814,
+        344
+      ],
+      "roof_pixel": [
+        757.698432867429,
+        321.04193138500636
+      ],
+      "track_id": 2,
+      "first_step": 55,
+      "last_step": 78,
+      "time_s": 7.8,
+      "centre": [
+        763.0,
+        322.0
+      ],
+      "image_velocity_px_s": [
+        150.00000000000054,
+        -50.00000000000018
+      ],
+      "state": "matched",
+      "xy_m": [
+        102.55175916067203,
+        3.4033653719235133
+      ]
+    }
+  ],
+  [
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        470,
+        240,
+        526,
+        270
+      ],
+      "roof_pixel": [
+        499.0568060021436,
+        254.92390139335478
+      ],
+      "track_id": 1,
+      "first_step": 49,
+      "last_step": 79,
+      "time_s": 7.9,
+      "centre": [
+        498.0,
+        255.0
+      ],
+      "image_velocity_px_s": [
+        -69.99999999999963,
+        -49.99999999999974
+      ],
+      "state": "matched",
+      "xy_m": [
+        96.89955133061245,
+        16.674414425416366
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        728,
+        296,
+        826,
+        338
+      ],
+      "roof_pixel": [
+        772.1972972972973,
+        316.02027027027026
+      ],
+      "track_id": 2,
+      "first_step": 55,
+      "last_step": 79,
+      "time_s": 7.9,
+      "centre": [
+        777.0,
+        317.0
+      ],
+      "image_velocity_px_s": [
+        139.99999999999926,
+        -49.99999999999974
+      ],
+      "state": "matched",
+      "xy_m": [
+        103.36974427098578,
+        3.414724524354323
+      ]
+    }
+  ],
+  [
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        466,
+        236,
+        520,
+        266
+      ],
+      "roof_pixel": [
+        492.678369195923,
+        250.39637599094
+      ],
+      "track_id": 1,
+      "first_step": 49,
+      "last_step": 80,
+      "time_s": 8.0,
+      "centre": [
+        493.0,
+        251.0
+      ],
+      "image_velocity_px_s": [
+        -50.00000000000018,
+        -40.00000000000014
+      ],
+      "state": "matched",
+      "xy_m": [
+        96.88242535621822,
+        17.56467400921644
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        742,
+        292,
+        840,
+        332
+      ],
+      "roof_pixel": [
+        786.0178655383169,
+        311.3554301833568
+      ],
+      "track_id": 2,
+      "first_step": 55,
+      "last_step": 80,
+      "time_s": 8.0,
+      "centre": [
+        791.0,
+        312.0
+      ],
+      "image_velocity_px_s": [
+        140.0000000000005,
+        -50.00000000000018
+      ],
+      "state": "matched",
+      "xy_m": [
+        104.16970315427982,
+        3.4176290889693934
+      ]
+    }
+  ],
+  [
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        460,
+        232,
+        514,
+        262
+      ],
+      "roof_pixel": [
+        487.69157769869514,
+        246.52313167259786
+      ],
+      "track_id": 1,
+      "first_step": 49,
+      "last_step": 81,
+      "time_s": 8.1,
+      "centre": [
+        487.0,
+        247.0
+      ],
+      "image_velocity_px_s": [
+        -60.00000000000021,
+        -40.00000000000014
+      ],
+      "state": "matched",
+      "xy_m": [
+        96.88852643679047,
+        18.344401419349506
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        758,
+        288,
+        852,
+        328
+      ],
+      "roof_pixel": [
+        800.1019393336649,
+        306.7946295375435
+      ],
+      "track_id": 2,
+      "first_step": 55,
+      "last_step": 81,
+      "time_s": 8.1,
+      "centre": [
+        805.0,
+        308.0
+      ],
+      "image_velocity_px_s": [
+        140.0000000000005,
+        -40.00000000000014
+      ],
+      "state": "matched",
+      "xy_m": [
+        104.99972704776593,
+        3.407283324420929
+      ]
+    }
+  ],
+  [
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        456,
+        228,
+        508,
+        256
+      ],
+      "roof_pixel": [
+        482.16460396039605,
+        242.26237623762376
+      ],
+      "track_id": 1,
+      "first_step": 49,
+      "last_step": 82,
+      "time_s": 8.2,
+      "centre": [
+        482.0,
+        242.0
+      ],
+      "image_velocity_px_s": [
+        -50.00000000000018,
+        -50.00000000000018
+      ],
+      "state": "matched",
+      "xy_m": [
+        96.89360183003058,
+        19.239494780108558
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        772,
+        284,
+        864,
+        322
+      ],
+      "roof_pixel": [
+        813.1629006831319,
+        302.3205465055176
+      ],
+      "track_id": 2,
+      "first_step": 55,
+      "last_step": 82,
+      "time_s": 8.2,
+      "centre": [
+        818.0,
+        303.0
+      ],
+      "image_velocity_px_s": [
+        130.00000000000045,
+        -50.00000000000018
+      ],
+      "state": "matched",
+      "xy_m": [
+        105.81620030637465,
+        3.4146357598491424
+      ]
+    }
+  ],
+  [
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        452,
+        224,
+        502,
+        252
+      ],
+      "roof_pixel": [
+        477.4234828496042,
+        238.69261213720316
+      ],
+      "track_id": 1,
+      "first_step": 49,
+      "last_step": 83,
+      "time_s": 8.3,
+      "centre": [
+        477.0,
+        238.0
+      ],
+      "image_velocity_px_s": [
+        -49.99999999999929,
+        -39.99999999999943
+      ],
+      "state": "matched",
+      "xy_m": [
+        96.89279612171111,
+        20.023851152104555
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        786,
+        280,
+        876,
+        318
+      ],
+      "roof_pixel": [
+        825.3599779492833,
+        298.01157662624036
+      ],
+      "track_id": 2,
+      "first_step": 55,
+      "last_step": 83,
+      "time_s": 8.3,
+      "centre": [
+        831.0,
+        299.0
+      ],
+      "image_velocity_px_s": [
+        129.99999999999815,
+        -39.99999999999943
+      ],
+      "state": "matched",
+      "xy_m": [
+        106.61648228745005,
+        3.4311540573550676
+      ]
+    }
+  ],
+  [
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        448,
+        222,
+        496,
+        250
+      ],
+      "roof_pixel": [
+        472.07510431154384,
+        234.9471488178025
+      ],
+      "track_id": 1,
+      "first_step": 49,
+      "last_step": 84,
+      "time_s": 8.4,
+      "centre": [
+        472.0,
+        236.0
+      ],
+      "image_velocity_px_s": [
+        -50.00000000000018,
+        -20.00000000000007
+      ],
+      "state": "matched",
+      "xy_m": [
+        96.87385059570181,
+        20.891210727629336
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        800,
+        276,
+        886,
+        312
+      ],
+      "roof_pixel": [
+        838.4464285714286,
+        293.91417050691246
+      ],
+      "track_id": 2,
+      "first_step": 55,
+      "last_step": 84,
+      "time_s": 8.4,
+      "centre": [
+        843.0,
+        294.0
+      ],
+      "image_velocity_px_s": [
+        120.00000000000043,
+        -50.00000000000018
+      ],
+      "state": "matched",
+      "xy_m": [
+        107.45818407016563,
+        3.4109962513643577
+      ]
+    }
+  ],
+  [
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        444,
+        218,
+        492,
+        244
+      ],
+      "roof_pixel": [
+        467.8467261904762,
+        231.19791666666666
+      ],
+      "track_id": 1,
+      "first_step": 49,
+      "last_step": 85,
+      "time_s": 8.5,
+      "centre": [
+        468.0,
+        231.0
+      ],
+      "image_velocity_px_s": [
+        -40.00000000000014,
+        -50.00000000000018
+      ],
+      "state": "matched",
+      "xy_m": [
+        96.90960254461586,
+        21.758135523016005
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        812,
+        272,
+        896,
+        308
+      ],
+      "roof_pixel": [
+        850.1231884057971,
+        289.68176328502415
+      ],
+      "track_id": 2,
+      "first_step": 55,
+      "last_step": 85,
+      "time_s": 8.5,
+      "centre": [
+        854.0,
+        290.0
+      ],
+      "image_velocity_px_s": [
+        110.0000000000004,
+        -40.00000000000014
+      ],
+      "state": "matched",
+      "xy_m": [
+        108.28896109458545,
+        3.43527519532544
+      ]
+    }
+  ],
+  [
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        440,
+        216,
+        486,
+        240
+      ],
+      "roof_pixel": [
+        463.0700934579439,
+        227.84579439252337
+      ],
+      "track_id": 1,
+      "first_step": 49,
+      "last_step": 86,
+      "time_s": 8.6,
+      "centre": [
+        463.0,
+        228.0
+      ],
+      "image_velocity_px_s": [
+        -50.00000000000018,
+        -30.000000000000107
+      ],
+      "state": "matched",
+      "xy_m": [
+        96.8927945114177,
+        22.597353599641167
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        826,
+        268,
+        908,
+        304
+      ],
+      "roof_pixel": [
+        861.5767741935484,
+        286.03741935483873
+      ],
+      "track_id": 2,
+      "first_step": 55,
+      "last_step": 86,
+      "time_s": 8.6,
+      "centre": [
+        867.0,
+        286.0
+      ],
+      "image_velocity_px_s": [
+        130.00000000000045,
+        -40.00000000000014
+      ],
+      "state": "matched",
+      "xy_m": [
+        109.08111114095678,
+        3.4215114620165963
+      ]
+    }
+  ],
+  [
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        436,
+        212,
+        482,
+        238
+      ],
+      "roof_pixel": [
+        459.22932917316695,
+        224.8408736349454
+      ],
+      "track_id": 1,
+      "first_step": 49,
+      "last_step": 87,
+      "time_s": 8.7,
+      "centre": [
+        459.0,
+        225.0
+      ],
+      "image_velocity_px_s": [
+        -40.00000000000014,
+        -30.000000000000107
+      ],
+      "state": "matched",
+      "xy_m": [
+        96.899721984489,
+        23.361799934606438
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        836,
+        264,
+        918,
+        300
+      ],
+      "roof_pixel": [
+        872.8639092728486,
+        282.2775183455637
+      ],
+      "track_id": 2,
+      "first_step": 55,
+      "last_step": 87,
+      "time_s": 8.7,
+      "centre": [
+        877.0,
+        282.0
+      ],
+      "image_velocity_px_s": [
+        100.00000000000036,
+        -40.00000000000014
+      ],
+      "state": "matched",
+      "xy_m": [
+        109.90390336483914,
+        3.420462077667068
+      ]
+    }
+  ],
+  [
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        434,
+        210,
+        478,
+        234
+      ],
+      "roof_pixel": [
+        455.8616352201258,
+        222.4559748427673
+      ],
+      "track_id": 1,
+      "first_step": 49,
+      "last_step": 88,
+      "time_s": 8.8,
+      "centre": [
+        456.0,
+        222.0
+      ],
+      "image_velocity_px_s": [
+        -29.999999999999574,
+        -29.999999999999574
+      ],
+      "state": "matched",
+      "xy_m": [
+        96.8888461301788,
+        23.99838234122233
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        848,
+        262,
+        928,
+        296
+      ],
+      "roof_pixel": [
+        883.7975034674064,
+        278.52011095700414
+      ],
+      "track_id": 2,
+      "first_step": 55,
+      "last_step": 88,
+      "time_s": 8.8,
+      "centre": [
+        888.0,
+        279.0
+      ],
+      "image_velocity_px_s": [
+        109.99999999999844,
+        -29.999999999999574
+      ],
+      "state": "matched",
+      "xy_m": [
+        110.73951696124787,
+        3.4284114233974474
+      ]
+    }
+  ],
+  [
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        430,
+        208,
+        472,
+        230
+      ],
+      "roof_pixel": [
+        451.14084507042253,
+        218.95070422535213
+      ],
+      "track_id": 1,
+      "first_step": 49,
+      "last_step": 89,
+      "time_s": 8.9,
+      "centre": [
+        451.0,
+        219.0
+      ],
+      "image_velocity_px_s": [
+        -50.00000000000018,
+        -30.000000000000107
+      ],
+      "state": "matched",
+      "xy_m": [
+        96.88441178257548,
+        24.958350465637615
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        860,
+        258,
+        938,
+        292
+      ],
+      "roof_pixel": [
+        894.0057887120116,
+        275.15050651230104
+      ],
+      "track_id": 2,
+      "first_step": 55,
+      "last_step": 89,
+      "time_s": 8.9,
+      "centre": [
+        899.0,
+        275.0
+      ],
+      "image_velocity_px_s": [
+        110.0000000000004,
+        -40.00000000000014
+      ],
+      "state": "matched",
+      "xy_m": [
+        111.52850836883054,
+        3.42508556274859
+      ]
+    }
+  ],
+  [
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        426,
+        204,
+        468,
+        228
+      ],
+      "roof_pixel": [
+        447.3292682926829,
+        216.02439024390245
+      ],
+      "track_id": 1,
+      "first_step": 49,
+      "last_step": 90,
+      "time_s": 9.0,
+      "centre": [
+        447.0,
+        216.0
+      ],
+      "image_velocity_px_s": [
+        -40.00000000000014,
+        -30.000000000000107
+      ],
+      "state": "matched",
+      "xy_m": [
+        96.88753275502246,
+        25.7859560333737
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        870,
+        256,
+        948,
+        288
+      ],
+      "roof_pixel": [
+        904.1568926123382,
+        271.76846915460777
+      ],
+      "track_id": 2,
+      "first_step": 55,
+      "last_step": 90,
+      "time_s": 9.0,
+      "centre": [
+        909.0,
+        272.0
+      ],
+      "image_velocity_px_s": [
+        100.00000000000036,
+        -30.000000000000107
+      ],
+      "state": "matched",
+      "xy_m": [
+        112.34057231532309,
+        3.424196902213449
+      ]
+    }
+  ],
+  [
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        422,
+        202,
+        464,
+        224
+      ],
+      "roof_pixel": [
+        443.0210325047801,
+        212.9961759082218
+      ],
+      "track_id": 1,
+      "first_step": 49,
+      "last_step": 91,
+      "time_s": 9.1,
+      "centre": [
+        443.0,
+        213.0
+      ],
+      "image_velocity_px_s": [
+        -40.00000000000014,
+        -30.000000000000107
+      ],
+      "state": "matched",
+      "xy_m": [
+        96.87094262391963,
+        26.686743743551588
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        880,
+        252,
+        956,
+        284
+      ],
+      "roof_pixel": [
+        914.0858468677494,
+        268.43619489559165
+      ],
+      "track_id": 2,
+      "first_step": 55,
+      "last_step": 91,
+      "time_s": 9.1,
+      "centre": [
+        918.0,
+        268.0
+      ],
+      "image_velocity_px_s": [
+        90.00000000000033,
+        -40.00000000000014
+      ],
+      "state": "matched",
+      "xy_m": [
+        113.1621748277977,
+        3.4252816007936797
+      ]
+    }
+  ],
+  [
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        420,
+        200,
+        460,
+        220
+      ],
+      "roof_pixel": [
+        439.8498023715415,
+        210.22332015810278
+      ],
+      "track_id": 1,
+      "first_step": 49,
+      "last_step": 92,
+      "time_s": 9.2,
+      "centre": [
+        440.0,
+        210.0
+      ],
+      "image_velocity_px_s": [
+        -30.000000000000107,
+        -30.000000000000107
+      ],
+      "state": "matched",
+      "xy_m": [
+        96.89831903006211,
+        27.512484035803084
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        890,
+        250,
+        966,
+        280
+      ],
+      "roof_pixel": [
+        923.8592839300583,
+        265.3255620316403
+      ],
+      "track_id": 2,
+      "first_step": 55,
+      "last_step": 92,
+      "time_s": 9.2,
+      "centre": [
+        928.0,
+        265.0
+      ],
+      "image_velocity_px_s": [
+        100.00000000000036,
+        -30.000000000000107
+      ],
+      "state": "matched",
+      "xy_m": [
+        113.97293101836028,
+        3.4123427977993863
+      ]
+    }
+  ],
+  [
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        416,
+        196,
+        456,
+        218
+      ],
+      "roof_pixel": [
+        436.3222453222453,
+        206.9126819126819
+      ],
+      "track_id": 1,
+      "first_step": 49,
+      "last_step": 93,
+      "time_s": 9.3,
+      "centre": [
+        436.0,
+        207.0
+      ],
+      "image_velocity_px_s": [
+        -39.99999999999943,
+        -29.999999999999574
+      ],
+      "state": "matched",
+      "xy_m": [
+        96.94698187476212,
+        28.526510705991157
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        900,
+        246,
+        974,
+        278
+      ],
+      "roof_pixel": [
+        933.6683046683047,
+        261.93693693693695
+      ],
+      "track_id": 2,
+      "first_step": 55,
+      "last_step": 93,
+      "time_s": 9.3,
+      "centre": [
+        937.0,
+        262.0
+      ],
+      "image_velocity_px_s": [
+        89.99999999999872,
+        -29.999999999999574
+      ],
+      "state": "matched",
+      "xy_m": [
+        114.8477283103216,
+        3.421388545548437
+      ]
+    }
+  ],
+  [
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        414,
+        194,
+        452,
+        214
+      ],
+      "roof_pixel": [
+        432.5382882882883,
+        204.3536036036036
+      ],
+      "track_id": 1,
+      "first_step": 49,
+      "last_step": 94,
+      "time_s": 9.4,
+      "centre": [
+        433.0,
+        204.0
+      ],
+      "image_velocity_px_s": [
+        -30.000000000000107,
+        -30.000000000000107
+      ],
+      "state": "matched",
+      "xy_m": [
+        96.9248825144816,
+        29.380687545525085
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        910,
+        244,
+        984,
+        274
+      ],
+      "roof_pixel": [
+        942.4202037351444,
+        258.9762308998302
+      ],
+      "track_id": 2,
+      "first_step": 55,
+      "last_step": 94,
+      "time_s": 9.4,
+      "centre": [
+        947.0,
+        259.0
+      ],
+      "image_velocity_px_s": [
+        100.00000000000036,
+        -30.000000000000107
+      ],
+      "state": "matched",
+      "xy_m": [
+        115.6429233844729,
+        3.424350800775107
+      ]
+    }
+  ],
+  [
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        410,
+        192,
+        450,
+        210
+      ],
+      "roof_pixel": [
+        428.80535279805355,
+        201.64233576642334
+      ],
+      "track_id": 1,
+      "first_step": 49,
+      "last_step": 95,
+      "time_s": 9.5,
+      "centre": [
+        430.0,
+        201.0
+      ],
+      "image_velocity_px_s": [
+        -30.000000000000107,
+        -30.000000000000107
+      ],
+      "state": "matched",
+      "xy_m": [
+        96.9169079723824,
+        30.30605200665591
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "red_proxy",
+      "confidence": 1.0,
+      "box_xyxy": [
+        920,
+        240,
+        992,
+        270
+      ],
+      "roof_pixel": [
+        951.3208221626452,
+        255.71581769436997
+      ],
+      "track_id": 2,
+      "first_step": 55,
+      "last_step": 95,
+      "time_s": 9.5,
+      "centre": [
+        956.0,
+        255.0
+      ],
+      "image_velocity_px_s": [
+        90.00000000000033,
+        -40.00000000000014
+      ],
+      "state": "matched",
+      "xy_m": [
+        116.512907145745,
+        3.4490746113614605
+      ]
+    }
+  ]
+]

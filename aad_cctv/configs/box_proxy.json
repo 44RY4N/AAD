@@ -1,0 +1,10 @@
+{
+ "label":"configurable_emergency_vehicle_research_proxy",
+ "length":5.74,"width":2.3,"height":2.8,"mass":1600,
+ "evidence_status":"unvalidated_modelling_assumption",
+ "parameter_source":"MetaDrive 0.4.3 XLVehicle stock dimensions and mass; reused as a larger box proxy, not ambulance specifications",
+ "visual_representation":"generic parametric bounding box; no ambulance texture or identity claim",
+ "collision_geometry":"runtime exported Bullet chassis box; dimensions checked separately",
+ "dynamics":"inherited simulator passenger-vehicle dynamics/wheelbase; not calibrated to an ambulance",
+ "emergency_lights":"not implemented; no emergency-priority signal is simulated"
+}

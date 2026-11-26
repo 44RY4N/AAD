@@ -1,0 +1,31 @@
+<!doctype html><meta charset="utf-8"><title>Independent vehicle case review</title>
+<style>body{font:16px sans-serif;max-width:1100px;margin:24px auto}canvas{width:100%;border:1px solid #888}label{display:inline-block;margin:10px}input,select,button{font:inherit}textarea{width:100%;height:65px}#status{color:#444}</style>
+<h1>Independent vehicle case review</h1><p>No box drawing. Red: candidate. Blue optional boxes: other counted model predictions, not human ground truth. Confirm object presence/class and duplicate identity; choose uncertain when ambiguous.</p>
+<button id="prev">Previous</button> <select id="navigation"></select> <button id="next">Next</button>
+<p id="identity"></p><p id="status"></p><canvas id="view"></canvas>
+<label><input type="checkbox" id="others"> Show other counted predictions</label>
+<label>Reviewer identifier <input id="reviewer"></label><br>
+<label>Vehicle present? <select id="vehicle_present"></select></label>
+<label>Class <select id="vehicle_class"></select></label>
+<label>Already counted vehicle? <select id="already_counted"></select></label>
+<label>Too ambiguous? <select id="too_ambiguous"></select></label>
+<textarea id="notes" placeholder="Optional explanation"></textarea>
+<label><input type="checkbox" id="complete"> Mark this case complete</label>
+<button id="export">Export review JSON</button><label>Import response JSON <input id="import" type="file" accept="application/json"></label>
+<script>
+const dataset=/*CASES*/,initial=/*RESPONSES*/,images=/*IMAGES*/;
+const fields=['vehicle_present','vehicle_class','already_counted','too_ambiguous'];
+let answers=JSON.parse(JSON.stringify(initial)),index=0;const $=id=>document.getElementById(id),picture=new Image();
+function validate(d){if(d.schema_version!==initial.schema_version||d.cases_sha256!==initial.cases_sha256||!Array.isArray(d.responses)||d.responses.length!==initial.responses.length)throw Error('Wrong dataset');const seen=new Set();for(const r of d.responses){if(!initial.responses.some(x=>x.case_id===r.case_id)||seen.has(r.case_id))throw Error('Unknown/duplicate case');seen.add(r.case_id);if(typeof r.review_complete!=='boolean'||typeof r.reviewer!=='string')throw Error('Invalid reviewer state');for(const f of fields){const choices=f==='vehicle_class'?['car','truck','uncertain']:['yes','no','uncertain'];if(r[f]!==null&&!choices.includes(r[f]))throw Error('Invalid answer');if(r.review_complete&&r[f]===null)throw Error('Answer all questions');}if(r.vehicle_present==='no'&&r.vehicle_class!==null&&r.vehicle_class!=='uncertain')throw Error('Absent vehicle cannot have confirmed class');if(r.review_complete&&(!r.reviewer.trim()||typeof r.reviewed_at_utc!=='string'||!r.reviewed_at_utc.endsWith('Z')||!Number.isFinite(Date.parse(r.reviewed_at_utc))))throw Error('Reviewer and UTC timestamp required');}}
+function current(){return answers.responses.find(r=>r.case_id===dataset.cases[index].case_id)}
+function save(mark=false){const r=current();for(const f of fields)r[f]=$(f).value||null;r.reviewer=$('reviewer').value.trim();r.notes=$('notes').value;if(mark){r.review_complete=$('complete').checked;r.reviewed_at_utc=r.review_complete?new Date().toISOString():null;}try{validate(answers);$('status').textContent=answers.responses.filter(r=>r.review_complete).length+' / '+answers.responses.length+' reviewed; export to save responses.'}catch(e){r.review_complete=false;r.reviewed_at_utc=null;$('complete').checked=false;alert(e.message)}}
+function draw(){const c=dataset.cases[index],canvas=$('view');canvas.width=picture.naturalWidth;canvas.height=picture.naturalHeight;const ctx=canvas.getContext('2d');ctx.drawImage(picture,0,0);function box(b,color){ctx.strokeStyle=color;ctx.lineWidth=2;ctx.strokeRect(b[0],b[1],b[2]-b[0],b[3]-b[1]);}if($('others').checked)for(const b of c.other_counted_car_boxes)box(b,'blue');box(c.box_xyxy,'red');}
+function show(){const c=dataset.cases[index],r=current();for(const f of fields)$(f).value=r[f]||'';$('reviewer').value=r.reviewer;$('notes').value=r.notes;$('complete').checked=r.review_complete;$('navigation').value=index;$('identity').textContent=c.case_id+' | Frame '+c.frame_id+' | Scenario '+(c.context.scenario_id||'not established')+' | Actor/event identity: independently unassigned';$('status').textContent=answers.responses.filter(r=>r.review_complete).length+' / '+answers.responses.length+' reviewed';picture.onload=draw;picture.src=images[c.frame_id];}
+for(const f of fields){const options=f==='vehicle_class'?['','car','truck','uncertain']:['','yes','no','uncertain'];for(const value of options)$(f).add(new Option(value||'Choose...',value));}
+dataset.cases.forEach((c,i)=>$('navigation').add(new Option((i+1)+': '+c.kind,i)));
+function go(i){save();index=Math.max(0,Math.min(dataset.cases.length-1,i));show();}
+$('prev').onclick=()=>go(index-1);$('next').onclick=()=>go(index+1);$('navigation').onchange=()=>go(Number($('navigation').value));$('others').onchange=draw;
+for(const id of [...fields,'reviewer','notes'])$(id).onchange=()=>{current().review_complete=false;current().reviewed_at_utc=null;$('complete').checked=false;save()};$('complete').onchange=()=>save(true);
+$('export').onclick=()=>{save();validate(answers);const url=URL.createObjectURL(new Blob([JSON.stringify(answers,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download='vehicle_case_review_v02.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)};
+$('import').onchange=async()=>{try{const d=JSON.parse(await $('import').files[0].text());validate(d);answers=d;index=0;show()}catch(e){alert(e.message)}};show();
+</script>

@@ -1,0 +1,36 @@
+[
+  {
+    "id": "roadside_close",
+    "position_world_m": [
+      110,
+      -8,
+      28
+    ],
+    "look_at_world_m": [
+      110,
+      4,
+      0
+    ],
+    "width": 1280,
+    "height": 720,
+    "horizontal_fov_deg": 110,
+    "fps": 5
+  },
+  {
+    "id": "oblique_close",
+    "position_world_m": [
+      65,
+      -8,
+      25
+    ],
+    "look_at_world_m": [
+      115,
+      3.5,
+      0
+    ],
+    "width": 1280,
+    "height": 720,
+    "horizontal_fov_deg": 85,
+    "fps": 5
+  }
+]

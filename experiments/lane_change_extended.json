@@ -1,0 +1,10 @@
+{
+  "seed": 0,
+  "steps": 300,
+  "road_length": 500,
+  "lane_width": 3.5,
+  "subject_longitude": 40,
+  "leader_gap": 24,
+  "leader_speed_kmh": 10,
+  "subject_speed_kmh": 30
+}

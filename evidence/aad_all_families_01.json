@@ -1,0 +1,390 @@
+{
+  "clips": [
+    {
+      "clip": "pass",
+      "family": "B",
+      "frames": 171,
+      "status": "consistent_tag",
+      "video_report": "analysis_output/aad_all_families_01/pass/report.json",
+      "reference_event": "analysis_output/aad_all_families_01/pass_reference/event.json",
+      "video_tags": [
+        {
+          "tag": "pass_and_return",
+          "behavior": "pass_and_return",
+          "interval_s": [
+            6.3,
+            13.9
+          ],
+          "actor_associations": {
+            "subject": 77
+          },
+          "counterpart_associations": {
+            "leader": 77
+          },
+          "reference_overlap_frames": 77,
+          "consistent": true,
+          "evidence": {
+            "counterpart_track": 5,
+            "initial_longitudinal_order_m": 15.991274797631192,
+            "final_longitudinal_order_m": -22.653607243817532,
+            "minimum_absolute_longitudinal_proxy_m": 0.15859685395446377
+          }
+        }
+      ],
+      "reference_window": [
+        6.1000000000000005,
+        15.100000000000001
+      ],
+      "reference_details": {
+        "event_type": "overtaking",
+        "event_subtype": "same_direction_out_and_return",
+        "observed_full_pass": true,
+        "return_confirmation_step": 151,
+        "completed_under_definition": true,
+        "definition": "World-x outer-envelope full leader clearance, passing path y>5.25, return within .35m of source centre for 11 samples; straight road only",
+        "risk_assessment": "unassessed"
+      },
+      "clip_contacts": 0
+    },
+    {
+      "clip": "braking_stronger",
+      "family": "C",
+      "frames": 181,
+      "status": "consistent_tag",
+      "video_report": "analysis_output/aad_all_families_01/braking_stronger_refined/report.json",
+      "reference_event": "analysis_output/aad_all_families_01/braking_stronger_reference/event.json",
+      "video_tags": [
+        {
+          "tag": "deceleration",
+          "behavior": "deceleration",
+          "interval_s": [
+            5.7,
+            8.7
+          ],
+          "actor_associations": {
+            "leader": 31
+          },
+          "counterpart_associations": {},
+          "reference_overlap_frames": 4,
+          "consistent": false,
+          "evidence": {
+            "initial_speed_proxy_m_s": 8.236003087951246,
+            "final_speed_proxy_m_s": 5.076464032445216
+          }
+        },
+        {
+          "tag": "deceleration",
+          "behavior": "deceleration",
+          "interval_s": [
+            6.1,
+            9.1
+          ],
+          "actor_associations": {
+            "background_far": 30
+          },
+          "counterpart_associations": {},
+          "reference_overlap_frames": 8,
+          "consistent": false,
+          "evidence": {
+            "initial_speed_proxy_m_s": 9.804513351788444,
+            "final_speed_proxy_m_s": 5.898401291059685
+          }
+        },
+        {
+          "tag": "candidate_AAD_review",
+          "behavior": "deceleration",
+          "interval_s": [
+            7.2,
+            10.2
+          ],
+          "actor_associations": {
+            "subject": 31
+          },
+          "counterpart_associations": {
+            "leader": 31
+          },
+          "reference_overlap_frames": 19,
+          "consistent": true,
+          "evidence": {
+            "initial_speed_proxy_m_s": 8.295593132318047,
+            "final_speed_proxy_m_s": 5.021134692767021,
+            "counterpart_track": 58,
+            "initial_longitudinal_proxy_m": 30.249350969137325,
+            "final_longitudinal_proxy_m": 20.007569887255144
+          }
+        }
+      ],
+      "reference_window": [
+        8.4,
+        18.0
+      ],
+      "reference_details": {
+        "definition": "First sustained decrease exceeding .5 km/h cumulative from pre-command speed through stable 11-sample plateau or censoring",
+        "scope": "Subject response; leader speed command recorded separately"
+      },
+      "clip_contacts": 0
+    },
+    {
+      "clip": "crossing_interaction",
+      "family": "D",
+      "frames": 96,
+      "status": "consistent_tag",
+      "video_report": "analysis_output/aad_all_families_01/crossing_interaction/report.json",
+      "reference_event": "analysis_output/aad_all_families_01/crossing_interaction_reference/event.json",
+      "video_tags": [
+        {
+          "tag": "candidate_AAD_review",
+          "behavior": "crossing_interaction",
+          "interval_s": [
+            6.1,
+            7.3
+          ],
+          "actor_associations": {
+            "subject": 13
+          },
+          "counterpart_associations": {
+            "crossing_target": 13
+          },
+          "reference_overlap_frames": 13,
+          "consistent": true,
+          "evidence": {
+            "counterpart_track": 1,
+            "sampled_zone_gap_proxy_s": 0.5
+          }
+        }
+      ],
+      "reference_window": [
+        5.800000000000001,
+        7.6000000000000005
+      ],
+      "reference_details": {
+        "zone": {
+          "polygon_world_xy_m": [
+            [
+              98.75,
+              5.25
+            ],
+            [
+              98.75,
+              1.75
+            ],
+            [
+              95.25,
+              1.75
+            ],
+            [
+              95.25,
+              5.25
+            ]
+          ],
+          "derivation": "Intersection of selected straight-lane corridor polygons; not a legal-priority definition",
+          "subject_lane": [
+            ">>>",
+            "1X1_0_",
+            0
+          ],
+          "target_lane": [
+            "-1X0_0_",
+            "1X2_0_",
+            0
+          ]
+        },
+        "occupancy_intervals": {
+          "subject": {
+            "first_occupied_step": 66,
+            "last_occupied_step": 75
+          },
+          "crossing_target": {
+            "first_occupied_step": 58,
+            "last_occupied_step": 67
+          }
+        },
+        "simultaneous_occupancy_steps": [
+          66,
+          67
+        ],
+        "sampled_zone_clearance_s": null,
+        "clearance_note": "Decision-sampled exit-to-entry interval; resolution .1 s, not continuous physical PET or risk"
+      },
+      "clip_contacts": 0
+    },
+    {
+      "clip": "abort",
+      "family": "B",
+      "frames": 171,
+      "status": "consistent_tag",
+      "video_report": "analysis_output/aad_all_families_01/abort/report.json",
+      "reference_event": "analysis_output/aad_all_families_01/abort_reference/event.json",
+      "video_tags": [
+        {
+          "tag": "return_behind_after_excursion",
+          "behavior": "return_behind_after_excursion",
+          "interval_s": [
+            6.3,
+            14.0
+          ],
+          "actor_associations": {
+            "subject": 78
+          },
+          "counterpart_associations": {
+            "leader": 78
+          },
+          "reference_overlap_frames": 78,
+          "consistent": true,
+          "evidence": {
+            "counterpart_track": 5,
+            "initial_longitudinal_order_m": 15.991274797631192,
+            "final_longitudinal_order_m": 16.074250014513808,
+            "minimum_absolute_longitudinal_proxy_m": 8.256770372914758
+          }
+        }
+      ],
+      "reference_window": [
+        6.1000000000000005,
+        16.0
+      ],
+      "reference_details": {
+        "abort_completed": true,
+        "definition": "Explicit abort trigger plus 11 source-lane-tolerance samples while behind leader"
+      },
+      "clip_contacts": 0
+    },
+    {
+      "clip": "braking_ordinary",
+      "family": "C",
+      "frames": 181,
+      "status": "no_consistent_tag",
+      "video_report": "analysis_output/aad_all_families_01/braking_ordinary_refined/report.json",
+      "reference_event": "analysis_output/aad_all_families_01/braking_ordinary_reference/event.json",
+      "video_tags": [
+        {
+          "tag": "deceleration",
+          "behavior": "deceleration",
+          "interval_s": [
+            5.7,
+            8.7
+          ],
+          "actor_associations": {
+            "leader": 31
+          },
+          "counterpart_associations": {},
+          "reference_overlap_frames": 1,
+          "consistent": false,
+          "evidence": {
+            "initial_speed_proxy_m_s": 8.252882265326932,
+            "final_speed_proxy_m_s": 5.231644122489172
+          }
+        },
+        {
+          "tag": "deceleration",
+          "behavior": "deceleration",
+          "interval_s": [
+            6.1,
+            9.1
+          ],
+          "actor_associations": {
+            "background_far": 30
+          },
+          "counterpart_associations": {},
+          "reference_overlap_frames": 5,
+          "consistent": false,
+          "evidence": {
+            "initial_speed_proxy_m_s": 9.804513351788444,
+            "final_speed_proxy_m_s": 6.209757318531672
+          }
+        }
+      ],
+      "reference_window": [
+        8.700000000000001,
+        18.0
+      ],
+      "reference_details": {
+        "definition": "First sustained decrease exceeding .5 km/h cumulative from pre-command speed through stable 11-sample plateau or censoring",
+        "scope": "Subject response; leader speed command recorded separately"
+      },
+      "clip_contacts": 0
+    },
+    {
+      "clip": "crossing_clear",
+      "family": "D",
+      "frames": 96,
+      "status": "consistent_tag",
+      "video_report": "analysis_output/aad_all_families_01/crossing_clear/report.json",
+      "reference_event": "analysis_output/aad_all_families_01/crossing_clear_reference/event.json",
+      "video_tags": [
+        {
+          "tag": "crossing_interaction",
+          "behavior": "crossing_interaction",
+          "interval_s": [
+            4.1,
+            7.3
+          ],
+          "actor_associations": {
+            "subject": 19
+          },
+          "counterpart_associations": {
+            "crossing_target": 33
+          },
+          "reference_overlap_frames": 33,
+          "consistent": true,
+          "evidence": {
+            "counterpart_track": 1,
+            "sampled_zone_gap_proxy_s": 2.6
+          }
+        }
+      ],
+      "reference_window": [
+        3.8000000000000003,
+        7.6000000000000005
+      ],
+      "reference_details": {
+        "zone": {
+          "polygon_world_xy_m": [
+            [
+              98.75,
+              5.25
+            ],
+            [
+              98.75,
+              1.75
+            ],
+            [
+              95.25,
+              1.75
+            ],
+            [
+              95.25,
+              5.25
+            ]
+          ],
+          "derivation": "Intersection of selected straight-lane corridor polygons; not a legal-priority definition",
+          "subject_lane": [
+            ">>>",
+            "1X1_0_",
+            0
+          ],
+          "target_lane": [
+            "-1X0_0_",
+            "1X2_0_",
+            0
+          ]
+        },
+        "occupancy_intervals": {
+          "subject": {
+            "first_occupied_step": 66,
+            "last_occupied_step": 75
+          },
+          "crossing_target": {
+            "first_occupied_step": 38,
+            "last_occupied_step": 46
+          }
+        },
+        "simultaneous_occupancy_steps": [],
+        "sampled_zone_clearance_s": 1.9000000000000001,
+        "clearance_note": "Decision-sampled exit-to-entry interval; resolution .1 s, not continuous physical PET or risk"
+      },
+      "clip_contacts": 0
+    }
+  ],
+  "scope": "Scenario and actor alignment; independent abnormality labels are unavailable."
+}

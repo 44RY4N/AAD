@@ -1,0 +1,155 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:aad:event:0.2:proposed",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "event_id",
+    "scenario_id",
+    "family",
+    "subject_role",
+    "target_role",
+    "surrounding_roles",
+    "actor_scope",
+    "start_step",
+    "end_step",
+    "dt_s",
+    "start_s",
+    "end_s",
+    "censored",
+    "physical_behaviour",
+    "attention_context",
+    "interaction_evidence",
+    "response",
+    "outcome",
+    "pcds_candidate",
+    "abnormality_assessment",
+    "initial_conditions",
+    "camera_evidence",
+    "geometry_evidence",
+    "evidence_quality",
+    "provenance",
+    "approval"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "aad-event-0.2-proposed"
+    },
+    "event_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "scenario_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "family": {
+      "enum": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "subject_role": {
+      "const": "subject"
+    },
+    "target_role": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "surrounding_roles": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "actor_scope": {
+      "const": "simulator_reference_roles_only"
+    },
+    "start_step": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "end_step": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "dt_s": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "start_s": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "end_s": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "censored": {
+      "type": "boolean"
+    },
+    "physical_behaviour": {
+      "enum": [
+        "detected",
+        "not_observed",
+        "insufficient_evidence"
+      ]
+    },
+    "attention_context": {
+      "type": "object"
+    },
+    "interaction_evidence": {
+      "type": "object"
+    },
+    "response": {
+      "type": "object"
+    },
+    "outcome": {
+      "type": "object"
+    },
+    "pcds_candidate": {
+      "enum": [
+        "unassessed",
+        "insufficient_evidence"
+      ]
+    },
+    "abnormality_assessment": {
+      "const": "unassessed"
+    },
+    "initial_conditions": {
+      "type": "object"
+    },
+    "camera_evidence": {
+      "type": "array"
+    },
+    "geometry_evidence": {
+      "type": "object"
+    },
+    "evidence_quality": {
+      "type": "object"
+    },
+    "provenance": {
+      "type": "object"
+    },
+    "approval": {
+      "const": "proposed_pending_supervisor_review"
+    }
+  }
+}

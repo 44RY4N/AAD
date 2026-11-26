@@ -1,0 +1,57 @@
+{
+  "frames": 171,
+  "fps": 10.0,
+  "video_sha256": "19e381461e9c8543f02c9e0fcc1a48363e0bd9763901a38e767a1d560ba0a1ed",
+  "calibration_sha256": "badff36b726e3547071de68aaf485187cdc4488d4201f6501356dd762f9e6cbc",
+  "code_sha256": "353813550e52f7a3e4a6d4e1d109a496e33c476f0c6cb6b7fd0c5e3d621cea55",
+  "rules": {
+    "road_divider_y_m": 5.25,
+    "lane_deadband_m": 0.4,
+    "stable_frames": 3,
+    "nearby_longitudinal_m": 9.0,
+    "context_frames": 3,
+    "proxy_surface_z_m": 0.65,
+    "red_min": 58,
+    "red_channel_margin": 23,
+    "min_component_px": 36
+  },
+  "tags": [
+    {
+      "track_id": 98,
+      "family": "A",
+      "start_frame": 67,
+      "end_frame": 73,
+      "physical_behaviour": "lane_change",
+      "attention_context": "nearby_receiving_lane_vehicle",
+      "interaction_evidence": [
+        {
+          "track_id": 65,
+          "consecutive_frames": 7,
+          "minimum_longitudinal_proxy_m": 0.20602437870077495
+        }
+      ],
+      "evasive_response": "unassessed",
+      "observed_outcome": "unknown",
+      "tag": "candidate_AAD_review",
+      "abnormality_assessment": "unassessed",
+      "start_s": 6.7,
+      "end_s": 7.3
+    },
+    {
+      "track_id": 98,
+      "family": "A",
+      "start_frame": 134,
+      "end_frame": 139,
+      "physical_behaviour": "lane_change",
+      "attention_context": "insufficient_context_for_flag",
+      "interaction_evidence": [],
+      "evasive_response": "unassessed",
+      "observed_outcome": "unknown",
+      "tag": "lane_change_only",
+      "abnormality_assessment": "unassessed",
+      "start_s": 13.4,
+      "end_s": 13.9
+    }
+  ],
+  "scope": "Simulated red ordinary vehicles, static road and fixed calibrated CCTV. Review tag is provisional."
+}

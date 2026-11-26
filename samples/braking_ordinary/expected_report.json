@@ -1,0 +1,77 @@
+{
+  "frames": 181,
+  "fps": 10.0,
+  "video_sha256": "f086b49f23f5d24017bfe5bfa42d831a146d590737e43616ee64f10552931e0d",
+  "calibration_sha256": "ecb2fc4b5c2a3e3ec03483aa59a57d550d160002d126f3dd856f3dfcee741746",
+  "code_sha256": "353813550e52f7a3e4a6d4e1d109a496e33c476f0c6cb6b7fd0c5e3d621cea55",
+  "rules": {
+    "road_divider_y_m": 5.25,
+    "lane_deadband_m": 0.4,
+    "stable_frames": 3,
+    "nearby_longitudinal_m": 9.0,
+    "context_frames": 3,
+    "proxy_surface_z_m": 0.65,
+    "red_min": 58,
+    "red_channel_margin": 23,
+    "min_component_px": 36
+  },
+  "tags": [
+    {
+      "family": "C",
+      "track_id": 58,
+      "start_frame": 57,
+      "end_frame": 87,
+      "physical_behaviour": "deceleration",
+      "attention_context": "unassessed",
+      "interaction_evidence": {
+        "initial_speed_proxy_m_s": 8.252882265326932,
+        "final_speed_proxy_m_s": 5.231644122489172
+      },
+      "tag": "deceleration",
+      "evasive_response": "unassessed",
+      "observed_outcome": "unknown",
+      "abnormality_assessment": "unassessed",
+      "start_s": 5.7,
+      "end_s": 8.7
+    },
+    {
+      "family": "C",
+      "track_id": 5,
+      "start_frame": 61,
+      "end_frame": 91,
+      "physical_behaviour": "deceleration",
+      "attention_context": "unassessed",
+      "interaction_evidence": {
+        "initial_speed_proxy_m_s": 9.804513351788444,
+        "final_speed_proxy_m_s": 6.209757318531672
+      },
+      "tag": "deceleration",
+      "evasive_response": "unassessed",
+      "observed_outcome": "unknown",
+      "abnormality_assessment": "unassessed",
+      "start_s": 6.1,
+      "end_s": 9.1
+    }
+  ],
+  "scope": "Simulated red ordinary vehicles, static road and fixed calibrated CCTV. Review tag is provisional.",
+  "static_layout": "straight",
+  "method": {
+    "road_strip_y_m": [
+      1.75,
+      8.75
+    ],
+    "intersection_zone_world_m": [
+      95.25,
+      1.75,
+      98.75,
+      5.25
+    ],
+    "deceleration_drop_m_s": 3,
+    "braking_lead_window_m": 30,
+    "crossing_review_gap_s": 1,
+    "pass_order_margin_m": 3
+  },
+  "braking_window_frames": 30,
+  "tagger_sha256": "de33ebd856b74569b9054206f44101f90790b07aa25677d75005c90529fd1b54",
+  "derived_from_code_sha256": "353813550e52f7a3e4a6d4e1d109a496e33c476f0c6cb6b7fd0c5e3d621cea55"
+}

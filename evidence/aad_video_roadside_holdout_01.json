@@ -1,0 +1,71 @@
+{
+  "cases": [
+    {
+      "case": "clear",
+      "expected": "lane_change_only",
+      "observed_tags": [
+        "lane_change_only"
+      ],
+      "verified": true,
+      "frames": 121,
+      "reference_window": [
+        61,
+        86
+      ],
+      "reference_min_envelope_separation_m": 90.04675037218705,
+      "matches": [
+        {
+          "tag": "lane_change_only",
+          "start_frame": 67,
+          "end_frame": 73,
+          "reference_overlap_frames": 7,
+          "subject_match": {
+            "nearest_roles_within_2m": {
+              "subject": 7
+            },
+            "median_offset_m": 0.7672129037730789
+          },
+          "counterpart_matches": []
+        }
+      ]
+    },
+    {
+      "case": "concurrent",
+      "expected": "candidate_AAD_review",
+      "observed_tags": [
+        "candidate_AAD_review"
+      ],
+      "verified": true,
+      "frames": 121,
+      "reference_window": [
+        61,
+        86
+      ],
+      "reference_min_envelope_separation_m": 3.835864251259802,
+      "matches": [
+        {
+          "tag": "candidate_AAD_review",
+          "start_frame": 67,
+          "end_frame": 73,
+          "reference_overlap_frames": 7,
+          "subject_match": {
+            "nearest_roles_within_2m": {
+              "subject": 7
+            },
+            "median_offset_m": 0.7694866189770743
+          },
+          "counterpart_matches": [
+            {
+              "nearest_roles_within_2m": {
+                "background_far": 6
+              },
+              "median_offset_m": 0.6800336776640709
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "passed": true,
+  "scope": "Small held-out scripted scenario check. Candidate expectation is target-lane context, not an independent abnormality label."
+}

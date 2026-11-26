@@ -1,0 +1,27 @@
+{
+  "command_step": 56,
+  "condition_intent": "blocked",
+  "lane_width": 3.5,
+  "leader_gap": 24,
+  "leader_speed_kmh": 10,
+  "road_length": 500,
+  "scenario_id": "overtake_slow_blocker",
+  "seed": 0,
+  "steps": 300,
+  "subject_longitude": 40,
+  "subject_speed_kmh": 30,
+  "target_lane": 0,
+  "target_vehicle_gap_m": 40,
+  "target_vehicle_speed_kmh": 1,
+  "return_gap_m": 10,
+  "camera_mount": [
+    0,
+    -35,
+    22
+  ],
+  "camera_look_at": [
+    0,
+    8,
+    0
+  ]
+}

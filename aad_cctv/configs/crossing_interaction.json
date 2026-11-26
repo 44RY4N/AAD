@@ -1,0 +1,10 @@
+{
+  "scenario_id": "crossing_interaction",
+  "seed": 0,
+  "steps": 95,
+  "subject_longitude": 40,
+  "subject_speed_kmh": 30,
+  "target_longitude": 8,
+  "target_speed_kmh": 30,
+  "lane_width": 3.5
+}

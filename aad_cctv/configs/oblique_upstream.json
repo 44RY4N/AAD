@@ -1,0 +1,19 @@
+[
+  {
+    "id": "oblique",
+    "position_world_m": [
+      35,
+      -8,
+      25
+    ],
+    "look_at_world_m": [
+      110,
+      3.5,
+      0
+    ],
+    "width": 1280,
+    "height": 720,
+    "horizontal_fov_deg": 95,
+    "fps": 10
+  }
+]

@@ -1,0 +1,116 @@
+{
+  "frames": 181,
+  "fps": 10.0,
+  "video_sha256": "85456195e037838bd8fff3db8b4fe9ce27e9a0f52aa6c642a30698c2fceb1b4c",
+  "calibration_sha256": "ecb2fc4b5c2a3e3ec03483aa59a57d550d160002d126f3dd856f3dfcee741746",
+  "code_sha256": "353813550e52f7a3e4a6d4e1d109a496e33c476f0c6cb6b7fd0c5e3d621cea55",
+  "rules": {
+    "road_divider_y_m": 5.25,
+    "lane_deadband_m": 0.4,
+    "stable_frames": 3,
+    "nearby_longitudinal_m": 9.0,
+    "context_frames": 3,
+    "proxy_surface_z_m": 0.65,
+    "red_min": 58,
+    "red_channel_margin": 23,
+    "min_component_px": 36
+  },
+  "tags": [
+    {
+      "family": "C",
+      "track_id": 1,
+      "start_frame": 54,
+      "end_frame": 84,
+      "physical_behaviour": "deceleration",
+      "attention_context": "unassessed",
+      "interaction_evidence": {
+        "initial_speed_proxy_m_s": 9.428181857554847,
+        "final_speed_proxy_m_s": 5.619619338688011
+      },
+      "tag": "deceleration",
+      "evasive_response": "unassessed",
+      "observed_outcome": "unknown",
+      "abnormality_assessment": "unassessed",
+      "start_s": 5.4,
+      "end_s": 8.4
+    },
+    {
+      "family": "C",
+      "track_id": 67,
+      "start_frame": 59,
+      "end_frame": 89,
+      "physical_behaviour": "deceleration",
+      "attention_context": "unassessed",
+      "interaction_evidence": {
+        "initial_speed_proxy_m_s": 8.238435053252402,
+        "final_speed_proxy_m_s": 5.052423007809153
+      },
+      "tag": "deceleration",
+      "evasive_response": "unassessed",
+      "observed_outcome": "unknown",
+      "abnormality_assessment": "unassessed",
+      "start_s": 5.9,
+      "end_s": 8.9
+    },
+    {
+      "family": "C",
+      "track_id": 69,
+      "start_frame": 75,
+      "end_frame": 105,
+      "physical_behaviour": "deceleration",
+      "attention_context": "review_context_observed",
+      "interaction_evidence": {
+        "initial_speed_proxy_m_s": 7.915063533235298,
+        "final_speed_proxy_m_s": 4.845921222201596,
+        "counterpart_track": 67,
+        "initial_longitudinal_proxy_m": 30.007408739098395,
+        "final_longitudinal_proxy_m": 19.797749370060757
+      },
+      "tag": "candidate_AAD_review",
+      "evasive_response": "unassessed",
+      "observed_outcome": "unknown",
+      "abnormality_assessment": "unassessed",
+      "start_s": 7.5,
+      "end_s": 10.5
+    },
+    {
+      "family": "C",
+      "track_id": 1,
+      "start_frame": 85,
+      "end_frame": 115,
+      "physical_behaviour": "deceleration",
+      "attention_context": "unassessed",
+      "interaction_evidence": {
+        "initial_speed_proxy_m_s": 9.211627339801225,
+        "final_speed_proxy_m_s": 5.8442001087984465
+      },
+      "tag": "deceleration",
+      "evasive_response": "unassessed",
+      "observed_outcome": "unknown",
+      "abnormality_assessment": "unassessed",
+      "start_s": 8.5,
+      "end_s": 11.5
+    }
+  ],
+  "scope": "Simulated red ordinary vehicles, static road and fixed calibrated CCTV. Review tag is provisional.",
+  "static_layout": "straight",
+  "method": {
+    "road_strip_y_m": [
+      1.75,
+      8.75
+    ],
+    "intersection_zone_world_m": [
+      95.25,
+      1.75,
+      98.75,
+      5.25
+    ],
+    "deceleration_drop_m_s": 3,
+    "braking_lead_window_m": 30,
+    "crossing_review_gap_s": 1,
+    "pass_order_margin_m": 3
+  },
+  "braking_window_frames": 30,
+  "tagger_sha256": "de33ebd856b74569b9054206f44101f90790b07aa25677d75005c90529fd1b54",
+  "derived_from_code_sha256": "353813550e52f7a3e4a6d4e1d109a496e33c476f0c6cb6b7fd0c5e3d621cea55"
+}

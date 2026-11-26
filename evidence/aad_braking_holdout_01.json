@@ -1,0 +1,101 @@
+{
+  "clips": [
+    {
+      "clip": "braking",
+      "family": "C",
+      "frames": 181,
+      "status": "consistent_tag",
+      "video_report": "analysis_output/aad_braking_holdout_01/braking/report.json",
+      "reference_event": "analysis_output/aad_braking_holdout_01/braking_reference/event.json",
+      "video_tags": [
+        {
+          "tag": "deceleration",
+          "behavior": "deceleration",
+          "interval_s": [
+            5.4,
+            8.4
+          ],
+          "actor_associations": {
+            "background_far": 29
+          },
+          "counterpart_associations": {},
+          "reference_overlap_frames": 0,
+          "consistent": false,
+          "evidence": {
+            "initial_speed_proxy_m_s": 9.428181857554847,
+            "final_speed_proxy_m_s": 5.619619338688011
+          }
+        },
+        {
+          "tag": "deceleration",
+          "behavior": "deceleration",
+          "interval_s": [
+            5.9,
+            8.9
+          ],
+          "actor_associations": {
+            "leader": 31
+          },
+          "counterpart_associations": {},
+          "reference_overlap_frames": 4,
+          "consistent": false,
+          "evidence": {
+            "initial_speed_proxy_m_s": 8.238435053252402,
+            "final_speed_proxy_m_s": 5.052423007809153
+          }
+        },
+        {
+          "tag": "candidate_AAD_review",
+          "behavior": "deceleration",
+          "interval_s": [
+            7.5,
+            10.5
+          ],
+          "actor_associations": {
+            "subject": 31
+          },
+          "counterpart_associations": {
+            "leader": 31
+          },
+          "reference_overlap_frames": 20,
+          "consistent": true,
+          "evidence": {
+            "initial_speed_proxy_m_s": 7.915063533235298,
+            "final_speed_proxy_m_s": 4.845921222201596,
+            "counterpart_track": 67,
+            "initial_longitudinal_proxy_m": 30.007408739098395,
+            "final_longitudinal_proxy_m": 19.797749370060757
+          }
+        },
+        {
+          "tag": "deceleration",
+          "behavior": "deceleration",
+          "interval_s": [
+            8.5,
+            11.5
+          ],
+          "actor_associations": {
+            "background_far": 24
+          },
+          "counterpart_associations": {},
+          "reference_overlap_frames": 30,
+          "consistent": false,
+          "evidence": {
+            "initial_speed_proxy_m_s": 9.211627339801225,
+            "final_speed_proxy_m_s": 5.8442001087984465
+          }
+        }
+      ],
+      "reference_window": [
+        8.6,
+        18.0
+      ],
+      "reference_details": {
+        "definition": "First sustained decrease exceeding .5 km/h cumulative from pre-command speed through stable 11-sample plateau or censoring",
+        "scope": "Subject response; leader speed command recorded separately"
+      },
+      "clip_contacts": 0
+    }
+  ],
+  "scope": "Scenario and actor alignment; independent abnormality labels are unavailable."
+}

@@ -1,0 +1,54 @@
+{
+  "A": {
+    "name": "lane_change",
+    "inclusion": "Verified sampled lateral departure and target settling",
+    "exclusion": "Lane-ID change alone; command without motion",
+    "context": "Source/target lane geometry and nearby actors",
+    "boundaries": "First |source lateral|>.35 m through 11th consecutive target-tolerance sample; otherwise censored",
+    "measures": [
+      "envelope separation",
+      "shared-path gap",
+      "lane occupancy",
+      "fixed-model TTC"
+    ]
+  },
+  "B": {
+    "name": "overtaking",
+    "inclusion": "Target-specific departure and pass/return or explicit controller abort",
+    "exclusion": "No-pass control is not an intentional abort",
+    "context": "Leader identity, relative order, passing/source lanes",
+    "boundaries": "Physical departure through confirmed return ahead or confirmed abort return behind; censored if unfinished",
+    "measures": [
+      "envelope separation",
+      "relative order",
+      "lane occupancy",
+      "fixed-model TTC"
+    ]
+  },
+  "C": {
+    "name": "braking_deceleration",
+    "inclusion": "Recorded speed decrease sustained over three samples",
+    "exclusion": "Desired-speed command without observed deceleration; intent inferred from speed alone",
+    "context": "Leader command, subject/leader actual speeds and time",
+    "boundaries": "First sustained decrease exceeding .5 km/h cumulative from pre-command speed through stable 11-sample plateau or censoring",
+    "measures": [
+      "actual speed",
+      "finite-difference acceleration",
+      "following gap",
+      "envelope separation"
+    ]
+  },
+  "D": {
+    "name": "intersection_crossing",
+    "inclusion": "Vehicle footprint enters defined path-intersection zone",
+    "exclusion": "Legal-priority violation without road-rule evidence; absence of target treated as conflict",
+    "context": "Crossing routes, explicit zone polygon and per-actor occupancy intervals",
+    "boundaries": "First relevant zone entry through last relevant actor exit; censored if occupied at end",
+    "measures": [
+      "zone occupancy",
+      "sampled temporal clearance",
+      "envelope separation",
+      "fixed-model TTC"
+    ]
+  }
+}

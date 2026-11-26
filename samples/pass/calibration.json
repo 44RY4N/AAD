@@ -1,0 +1,136 @@
+{
+  "status": "runtime_lens_parameters",
+  "lens_class": "panda3d.core.PerspectiveLens",
+  "width": 1280,
+  "height": 720,
+  "fov_degrees": [
+    103.0,
+    70.53280639648438
+  ],
+  "near_m": 1.0,
+  "far_m": 100000.0,
+  "film_size": [
+    1.0,
+    0.5625
+  ],
+  "film_offset": [
+    0.0,
+    0.0
+  ],
+  "focal_length_lens_units": 0.39771798253059387,
+  "coordinate_system_code": 0,
+  "projection_matrix": [
+    [
+      0.7954359650611877,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0000200271606445,
+      1.0
+    ],
+    [
+      0.0,
+      1.414108395576477,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      -2.0000200271606445,
+      0.0
+    ]
+  ],
+  "intrinsics": {
+    "status": "derived_and_crosschecked_against_runtime_lens_project",
+    "fx_px": 509.07901763916016,
+    "fy_px": 509.07902240753174,
+    "cx_px": 640.0,
+    "cy_px": 360.0,
+    "matrix_cv": [
+      [
+        509.07901763916016,
+        0,
+        640.0
+      ],
+      [
+        0,
+        509.07902240753174,
+        360.0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "max_project_error_px": 5.57899477371393e-06,
+    "pixel_convention": "continuous image edges, same formula as RGB centre_pixel; principal centre may be W/2,H/2"
+  },
+  "camera_axes": "Panda3D +X right,+Y forward,+Z up; CV coordinates=(X,-Z,Y)",
+  "distortion": {
+    "status": "not_parameterized_by_this_PerspectiveLens_model",
+    "coefficients": null,
+    "note": "Not a real-world calibration or a measured distortion estimate"
+  },
+  "camera_id": "roadside",
+  "viewpoint": "fixed_external_CCTV",
+  "camera_to_world_matrix": [
+    [
+      0.3976074457168579,
+      -0.9175556302070618,
+      -2.9802322387695312e-08,
+      0.0
+    ],
+    [
+      0.8359043598175049,
+      0.3622252345085144,
+      -0.41237950325012207,
+      0.0
+    ],
+    [
+      0.3783811330795288,
+      0.1639651358127594,
+      0.9110121726989746,
+      0.0
+    ],
+    [
+      64.0,
+      -2.5,
+      8.0,
+      1.0
+    ]
+  ],
+  "world_to_camera_matrix": [
+    [
+      0.3976074457168579,
+      0.8359043002128601,
+      0.3783811032772064,
+      0.0
+    ],
+    [
+      -0.9175556302070618,
+      0.362225204706192,
+      0.16396519541740417,
+      0.0
+    ],
+    [
+      2.9802322387695312e-08,
+      -0.41237950325012207,
+      0.9110121726989746,
+      0.0
+    ],
+    [
+      -27.740768432617188,
+      -49.29327392578125,
+      -31.094572067260742,
+      1.0
+    ]
+  ],
+  "ground_plane_world_z_m": 0.0,
+  "calibration_scope": "Actual simulated lens and world transform; not physical CCTV calibration"
+}
